@@ -1,0 +1,46 @@
+// create our questions
+let questions = [
+    {
+        question : "1) Fen bilimleri; ........... , ........... , ........... bilimleri olarak üç ayrı gruba ayrılır. ,"
+        imgSrc : "img/  ",
+        choiceA : "matematik, fizik, kimya",
+        choiceB : "fizik, kimya, biyoloji",
+        choiceC : "fizik, astronomi, kimya",
+		choiceD : "matematik, fizik, biyoloji",
+		correct : "B"
+    }, {
+        question : "2) Fizik bilimi ........... çekirdeğindeki proton ve nötron yapılarını da inceler. ",
+        imgSrc : "img/  ",
+        choiceA : "hücre",
+        choiceB : "foton",
+        choiceC : "dünya",
+		choiceD : "atom",
+		correct : "D"
+    },	{
+        question : "3) Gök cisimlerinin incelenmesini sağlayan araçlara ........... denir. ",
+        imgSrc : "img/  ",
+        choiceA : "mikroskop",
+        choiceB : "dürbin",
+        choiceC : "teleskop ",
+		choiceD : "radyometre",
+		correct : "C"
+    }, {
+        question : "4) Gözlükler göz kusuruna göre ........... içeren optik araçlardır. ",
+        imgSrc : "img/  ",
+        choiceA : "mercekler",
+        choiceB : "çukur ayna",
+        choiceC : "tümsek ayna",
+		choiceD : "prizma",
+		correct : "A"
+    }, 
+	    {
+        question : "5) Fizik ve ........... bilimleri evrende gök cisimlerini ve hareketlerini inceler. ",
+        imgSrc : "img/  ",
+        choiceA : "kimya",
+        choiceB : "biyoloji",
+        choiceC : "matematik",
+		choiceD : "astronomi",
+		correct : "D"
+    }
+	
+	

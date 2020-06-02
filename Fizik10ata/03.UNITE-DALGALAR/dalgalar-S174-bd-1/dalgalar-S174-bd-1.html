@@ -1,0 +1,57 @@
+<!doctype html> 
+<html lang="tr"> 
+    <head> 
+     
+        <title>jQuery Drag Blank Quiz (draggable fill-in-the-blank) Quiz Plugin Demo</title> 
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+			<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, user-scalable=1.0, minimum-scale=0.2, maximum-scale=2.0">
+
+        <link href="css/example.css" media="all" rel="stylesheet" type="text/css" /> 
+          
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script> 
+        <script type="text/javascript" src="js/jquery.drag-blank-quiz.js"></script> 
+
+        <script type="text/javascript"> 
+         
+            $(document).ready(function(){
+                $('.quiz').dragBlankQuiz();
+            });
+         
+        </script> 
+     
+    </head> 
+    <body> 
+    
+
+     	
+	<! ––   div class="quiz"  style:"border:5px solid red"     ––>
+
+     <! ––	  /div      –– >
+	 
+	 
+ 
+        <div class="quiz" data-fake-answers='["λ"]'>
+
+            <ol class="qs">
+			<h3>Boşlukları Doldurunuz  </h3>
+                <li>Bir dalga tepesi ve bir dalga çukuru arasındaki uzaklık<span class="quiz-answer"> λ/2</span> değerine eşittir.</li>
+                <li>Su dalgalarının bir engelle karşılaştığında geldiği ortama geri dönmesi <span class="quiz-answer"> yansıma</span> olayı olarak adlandırılır.</li>
+                <li>Dairesel su dalgaları düzlem engelde <span class="quiz-answer"> dairesel</span> şekilde yansır.</li>
+                <li>Odakta oluşturulan dairesel su dalgaları parabolik engelin çukur yüzünden <span class="quiz-answer">doğrusal</span>şekilde yansır.</li>
+					
+			    <li>Dalgaların yayılma hızı <span class="quiz-answer">stroboskop</span>adı verilen araç yardımı ile ölçülür.</li>
+                <li>Su derinliği, dalgaların <span class="quiz-answer">yayılma hızını</span> ve    <span class="quiz-answer">dalga boyunu </span> etkiler.</li>
+                
+            </ol>
+            
+        </div>
+
+   
+ 
+
+     
+     
+    </body> 
+</html> 
+ 
