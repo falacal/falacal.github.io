@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Bir cismin hacmini dolduran madde miktarına ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kutleagirlik.png  ",
         choiceA : "özkütle",
         choiceB : "kütle",
         choiceC : "özhacim",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "2)	Bir cismin boşlukta kapladığı yere ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/hacim.png  ",
         choiceA : "kütle",
         choiceB : "özkütle",
         choiceC : "özhacim",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "D"
     },	{
         question : "3)	Kütle ve hacim maddenin ........... özelliğidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dmv.png  ",
         choiceA : "ayırt edici",
         choiceB : "geçici",
         choiceC : "ortak",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "4)	Özkütle aynı koşullarda maddenin ........... özelliğidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ozkutle.png  ",
         choiceA : "ayırt edici",
         choiceB : "ortak",
         choiceC : "geçici",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5)	Özkütle ........... sanatı gerçekleştirilirken kullanılan bir büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ebru.png  ",
         choiceA : "resim",
         choiceB : "jui jitsu",
         choiceC : "full contact",
@@ -58,7 +58,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "6) Hacim ........... bir büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/hacim2.png  ",
         choiceA : "türetilmiş",
         choiceB : "temel",
         choiceC : "vektörel",
@@ -66,7 +66,7 @@ let questions = [
 		correct : "A"
     },	{
         question : "7)	Kütle ........... değişimlerinden etkilenmez iken hacim etkilenir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kutlesicaklik2.png  ",
         choiceA : "vektörel",
         choiceB : "skaler",
         choiceC : "sıcaklık",
@@ -74,7 +74,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "8)	Kral tacının saf altından yapılıp yapılmadığını ortaya çıkaran fizikçi ........... 'dir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/archimeds-300.gif  ",
         choiceA : "Aristo",
         choiceB : "El Biruni",
         choiceC : "Ömer Hayyam ",
@@ -82,7 +82,7 @@ let questions = [
 		correct : "D"
     },    {
         question : "9)	Hikmet Terazisi denilen terazisi ile kütle ölçümü sonra da özkütle tespiti yapan bilim insanı ........ 'dir.",
-        imgSrc : "img/  ",
+        imgSrc : "img/terazi3.png  ",
         choiceA : "Biruni",
         choiceB : "El Hazini",
         choiceC : "Ebu Ali Sina (İbni Sina)",
@@ -90,7 +90,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "10)	Hastane laboratuvarlarında ........... cihazı ile özkütle değerlerine göre sıvıların ayrılması gerçekleştirilir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/santrifuji3.png  ",
         choiceA : "terazi",
         choiceB : "santifüj",
         choiceC : "MR(Manyetik Rezonans)",

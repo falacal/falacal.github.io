@@ -16,61 +16,61 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Kütle maddenin ayırt edici özelliğidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ortakozellikler1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "2)	Madde atomlardan oluşan kütlesi, hacmi ve eylemsizliği olan her şeydir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/maddeler1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "3)	Madde katı, sıvı ve gaz olmak üzere üç hâlde bulunur. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/maddeler1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "4)	Madde için erime ve kaynama sıcaklığı ortak özelliktir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/maddelerayirtedici1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },	{
         question : "5)	Kütle hâl değişimlerinden etkilenmez. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/haldegisimi2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },{
         question : "6) 1 ton 10–3 kg’dır ",
-        imgSrc : "img/  ",
+        imgSrc : "img/tonkggmg2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },	{
         question : "7)	Hacim maddenin ortak özelliklerindendir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ortakozellikler23.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },{
         question : "8)	Özkütle aynı koşullarda maddeler için ayırt edici özelliktir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ayirtediciozellikler23.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "9)	Dayanıklılık katı maddenin sıcaklığına bağlı değildir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/genlesme2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "10)	Yağmur damlacıklarının cama yapışması adezyon kuvvetleri nedeniyledir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yagmurcamadezyon2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"

@@ -17,62 +17,62 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Evrenin oluşumunu ve yapısını fizik bilimi incelerken atomun yapısını yalnızca kimya bilimi incelemektedir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fizik1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B" 
     }, {
         question : "2)	Fizik bilim dalı evrenin oluşumunu astronomi bilim dalı ile birlikte inceler. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fizik2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "3) Fiziğin alt dalı mekanik; statik, kinematik ve termodinamik bölümlerinden oluşur. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kinematik2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "4)	Elektriğin de manyetik maddeler gibi manyetik etkisi bulunmaktadır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yuklerceker2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, 
 	    {
         question : "5)	Atom fiziği radyoaktif maddeleri ve yaptıkları ışımaları inceler. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/atomfizik3.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "6)	Plazma fiziği tıp alanında kanser tedavisindeki cihazlarda kullanılır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/plazma-nedir-iyon-elektron.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "7)	Archimedes, fizik biliminin yanı sıra felsefe ile de ilgilenen bilim insanlarından biridir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/arsimed3.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "8)	Temel büyüklüklerin bazıları vektöreldir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/temelbuyuklukler.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },    {
         question : "9)	Kronometreler sürat ölçen araçlardır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kronometre1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "10)	Vektörel büyüklükler sayı, birim ve yön ile eksiksiz tanımlanır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/vektor1.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"

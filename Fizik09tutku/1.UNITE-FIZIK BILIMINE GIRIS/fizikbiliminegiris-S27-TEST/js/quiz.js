@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Kuvvetle hareket arasındaki ilişkiyi inceleyen mekaniğin bölümüne ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/araba.gif  ",
         choiceA : "kinematik",
         choiceB : "statik",
         choiceC : "dinamik",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "2)	Isıtma-soğutma sistemlerinde fiziğin alt dalı ........... ilkeleri etkin olarak kullanılır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/termodinamik1.gif  ",
         choiceA : "termodinamik",
         choiceB : "mekanik",
         choiceC : "manyetizma",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "A"
     },	{
         question : "3)	Elektrik motoru elektrik enerjisini ........... enerjiye dönüştüren elektromanyetik bir araçtır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/electrikmotor.gif  ",
         choiceA : "kimyasal",
         choiceB : "mekanik",
         choiceC : "potansiyel",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "4)	Fiber optik cam içerisinde ........... sinyalleri ile bilgileri uzun mesafelere taşıyan araçlardır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fiber.png  ",
         choiceA : "ışık",
         choiceB : "radyo",
         choiceC : "wifi",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5)	Kristal yapılı maddeleri inceleyen fiziğin alt dalına ........... denir.",
-        imgSrc : "img/  ",
+        imgSrc : "img/katihal1.png  ",
         choiceA : "katıhal fiziği",
         choiceB : "mekanik",
         choiceC : "termodinamik",
@@ -58,7 +58,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "6)	Atom fiziği atomu elektronlar ve bir ........... içeren sistem olarak ele alır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/cekirdek.png  ",
         choiceA : "foton",
         choiceB : "quark",
         choiceC : "nötron",
@@ -66,7 +66,7 @@ let questions = [
 		correct : "D"
     },	{
         question : "7)	Nükleer enerji santrallerinde enerji üretilirken ........... yakıt kullanılmaz. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/reaksiyon1.png  ",
         choiceA : "fosil",
         choiceB : "uranyum",
         choiceC : "toryum",
@@ -74,7 +74,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "8)	Plazma fiziğinin günlük hayatta karşımıza çıkardığı ürünler arasında ........... ve neon lambalar bulunur. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/plazma1.png  ",
         choiceA : "atom lambaları",
         choiceB : "floresan",
         choiceC : "led lambalar",
@@ -82,7 +82,7 @@ let questions = [
 		correct : "B"
     },    {
         question : "9)	Bütün bilimlerin oluşup gelişimine neden olan ........... ile fizik bilim insanları da ilgilenmiştir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/felsefe2.png  ",
         choiceA : "felsefe",
         choiceB : "matematik",
         choiceC : "fizik",
@@ -90,7 +90,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "10)	Telli çalgılarda ........... fiziksel prensiplere dayalı yapılan bir işlemdir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/akort2.png  ",
         choiceA : "davul",
         choiceB : "tef",
         choiceC : "akort",

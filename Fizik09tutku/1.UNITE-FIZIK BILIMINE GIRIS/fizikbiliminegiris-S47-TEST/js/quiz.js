@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Işık şiddeti birimi ..........  ",
-        imgSrc : "img/  ",
+        imgSrc : "img/isikakisi.png  ",
         choiceA : "Lux",
         choiceB : "Candela",
         choiceC : "Lumen",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "2) Vektörel bir büyüklük  .......... ",
-        imgSrc : "img/  ",
+        imgSrc : "img/hizi.png  ",
         choiceA : "kütle",
         choiceB : "yol",
         choiceC : "hız",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "C"
     },	{
         question : "3) Sıcaklık ölçer  .......... ",
-        imgSrc : "img/  ",
+        imgSrc : "img/termometre-hareketli-.gif  ",
         choiceA : "kalorimetre",
         choiceB : "altimetre",
         choiceC : "dinamometre",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "4) Fiziğin uygulama alanlarından biri .......... ",
-        imgSrc : "img/  ",
+        imgSrc : "img/Nuclear-Power-Plants-83808.gif  ",
         choiceA : "nükleer santraller",
         choiceB : "termometreler",
         choiceC : "kütle",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5) Bir sayı, birim, yön ve doğrultu ile ifade edilen büyüklük  ..........",
-        imgSrc : "img/  ",
+        imgSrc : "img/vektor11.gif  ",
         choiceA : "skaler",
         choiceB : "vektörel",
         choiceC : "mutlak değer",
@@ -58,7 +58,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "6) Fizikçilerin uğraş alanlarından biri ..........",
-        imgSrc : "img/  ",
+        imgSrc : "img/electronic1.png  ",
         choiceA : "asitler",
         choiceB : "bazlar",
         choiceC : "elektronik",
@@ -66,7 +66,7 @@ let questions = [
 		correct : "C"
     },	{
         question : "7) Temel büyüklüklerden biri ..........",
-        imgSrc : "img/  ",
+        imgSrc : "img/kisamuz1.png  ",
         choiceA : "kütle",
         choiceB : "ivme",
         choiceC : "hız",
@@ -74,15 +74,15 @@ let questions = [
 		correct : "A"
     }, {
         question : "8) I.	Evrenin oluşumu <br>  &nbsp;&nbsp  II.	Dünya’nın hareketleri<br> &nbsp;&nbsp III.	Atomun yapısı<br> &nbsp;&nbsp IV.	Canlıların hücre yapıları<br>Yukarıda verilenlerden hangileri fizik biliminin çalışma alanlarındandır? ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fizik1.png  ",
         choiceA : "Yalnız I ",
-        choiceB : "I ve II ",
+        choiceB : "I ve IV ",
         choiceC : "I ve III ",
 		choiceD : "I, II ve III ",
 		correct : "D"
     },    {
         question : "9)	Aşağıda bazı araçlar verilmiştir. <br>  &nbsp;&nbsp I.	Kronometre <br>  &nbsp;&nbsp II.	Eşit kollu terazi <br>  &nbsp;&nbsp III.	Ampermetre <br>  &nbsp;&nbsp IV.	Mezura <br>  Yukarıda verilen ölçü araçlarından hangileri temel büyüklükleri ölçer? ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fizikaltalanlarbil-1.png  ",
         choiceA : "I  ve IV",
         choiceB : "I, II ve III  ",
         choiceC : "I, II, III ve IV ",
@@ -90,7 +90,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "10) Aşağıda sembolleri ile verilen birimlerden hangisi SI birim sistemine uygun değildir? ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kisamuz2.png  ",
         choiceA : "Santigrat (ºC) ",
         choiceB : "Kilogram (kg) ",
         choiceC : "Metre (m)",
@@ -98,7 +98,7 @@ let questions = [
 		correct : "A"
     },	{
         question : "11) Vektörel büyüklükler için <br> &nbsp;&nbsp I.	Temel büyüklüklerdir. <br>  &nbsp;&nbsp  II.	Toplam vektör her zaman toplananlardan büyük değer alır. <br> &nbsp;&nbsp III.	Eşit olduklarında doğrultu ve yönleri kesinlikle aynıdır.  <br>  yukarıdaki yargılardan hangisi ya da hangileri doğrudur? ",
-        imgSrc : "img/  ",
+        imgSrc : "img/vektorel3.png  ",
         choiceA : "Yalnız I ",
         choiceB : "Yalnız III ",
         choiceC : "I ve II ",

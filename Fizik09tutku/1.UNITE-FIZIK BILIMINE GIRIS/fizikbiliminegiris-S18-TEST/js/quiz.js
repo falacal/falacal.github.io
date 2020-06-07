@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Fen bilimleri; ........... , ........... , ........... bilimleri olarak üç ayrı gruba ayrılır." ,
-        imgSrc : "img/  ",
+        imgSrc : "img/fizkimbiy.png",
         choiceA : "matematik, fizik, kimya",
         choiceB : "fizik, kimya, biyoloji",
         choiceC : "fizik, astronomi, kimya",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "2) Fizik bilimi ........... çekirdeğindeki proton ve nötron yapılarını da inceler. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/atom1.gif  ",
         choiceA : "hücre",
         choiceB : "foton",
         choiceC : "dünya",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "D"
     },	{
         question : "3) Gök cisimlerinin incelenmesini sağlayan araçlara ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/teleskop3.png  ",
         choiceA : "mikroskop",
         choiceB : "dürbin",
         choiceC : "teleskop ",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "4) Gözlükler göz kusuruna göre ........... içeren optik araçlardır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/mercekler.png  ",
         choiceA : "mercekler",
         choiceB : "çukur ayna",
         choiceC : "tümsek ayna",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5) Fizik ve ........... bilimleri evrende gök cisimlerini ve hareketlerini inceler. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dunya2.png  ",
         choiceA : "kimya",
         choiceB : "biyoloji",
         choiceC : "matematik",

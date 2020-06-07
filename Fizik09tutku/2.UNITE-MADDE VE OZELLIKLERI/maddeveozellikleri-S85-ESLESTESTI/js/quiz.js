@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : '1) "Biberon, şırınga, ilaç ölçeği" aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/hacim2b.png  ",
         choiceA : "Kılcallık ",
         choiceB : "Yüzey gerilimi ",
         choiceC : "Hacim ölçer ",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "C"
     }, {
         question : '2) "Kütle, hacim, eylemsizlik" aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/atom2.png  ",
         choiceA : "Özkütle ",
         choiceB : "Hacim ölçer ",
         choiceC : "Adezyon, Kohezyon ",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "D"
     },	{
         question :'3) "Ortak özellikler " aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/hacim2.png  ",
         choiceA : "Özkütle ",
         choiceB : "Kütle, hacim ",
         choiceC : "Yüzey gerilimi ",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "B"
     }, {
         question : '4)"Boyut, ağırlık   " aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/Katılarda-dayanıklılık2.png  ",
         choiceA : "Dayanıklılık ",
         choiceB : "Kütle, hacim ",
         choiceC : "Adezyon, Kohezyon ",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : '5) "Adezyon-kohezyon kuvvetleri   "aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/adezyonciva1a.png  ",
         choiceA : "Hacim ölçer ",
         choiceB : "Kılcallık ",
         choiceC : "Özkütle ",
@@ -58,7 +58,7 @@ let questions = [
 		correct : "B"
     }, {
         question : '6) "Ayırt edici özellik   " aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/ayirtediciler1a.png  ",
         choiceA : "Yüzey gerilimi ",
         choiceB : "Kütle, hacim ",
         choiceC : "Madde ",
@@ -66,7 +66,7 @@ let questions = [
 		correct : "D"
     },	{
         question : '7) "Kütle çekim kuvveti, elektriksel kuvvetler   " aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/adezyonkohezyon1a.png  ",
         choiceA : "Madde ",
         choiceB : "Adezyon, Kohezyon ",
         choiceC : "Hacim ölçer ",
@@ -74,7 +74,7 @@ let questions = [
 		correct : "B"
     }, {
         question : '8) "Kohezyon kuvvetler   " aşağıdakilerden hangisi ile ilgilidir?    ',
-        imgSrc : "img/  ",
+        imgSrc : "img/adezyonkohezyon2.png  ",
         choiceA : "Yüzey gerilimi ",
         choiceB : "Kılcallık ",
         choiceC : "Adezyon, Kohezyon ",

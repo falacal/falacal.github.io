@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Aynı madde moleküllerinin birbirlerine uyguladıkları kuvvetlere ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kohezyon1.png  ",
         choiceA : "adezyon",
         choiceB : "coulomb kanunu",
         choiceC : "kılcallık",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "2)	Farklı madde moleküllerinin birbirlerine uyguladıkları kuvvetlere ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/capilary.gif  ",
         choiceA : "kılcallık",
         choiceB : "adezyon",
         choiceC : "yüzey gerilimi",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "B"
     },	{
         question : "3)	Adezyon ve kohezyon çekim kuvvetleri ile  ........... kuvvetlerden dolayı oluşur. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kohezyon2.png  ",
         choiceA : "elektriksel",
         choiceB : "kılcallık",
         choiceC : "yüzey gerilimi",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "4)	Sıvının özkütlesi arttıkça yüzey gerilimi ........... ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kohezyon3.png  ",
         choiceA : "azalır",
         choiceB : "sabit kalır",
         choiceC : "artar",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5)	Suyun ağaç köklerinden dallara yükselmesi  ........... olayıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/agackoksu2.gif  ",
         choiceA : "kohezyon",
         choiceB : "artezyen",
         choiceC : "kütle çekim kuvveti",

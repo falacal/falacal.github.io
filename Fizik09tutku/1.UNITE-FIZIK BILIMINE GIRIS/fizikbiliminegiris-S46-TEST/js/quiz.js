@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Fizik bilimi madde boyutu ne olursa olsun tüm ...............   yapılarını, hareketlerini inceler. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fizikselsistem1.png  ",
         choiceA : "sistem",
         choiceB : "katı",
         choiceC : "sıvı",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "2)	Evrenin oluşumunu açıklamaya çalışan teorilerden  biri de ...............   teorisidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/bigbang-1e.gif  ",
         choiceA : "mekanik enerjinin korunumu",
         choiceB : "kütlenin korunumu",
         choiceC : "büyük patlama (big bang)",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "C"
     },	{
         question : "3)	Fizik bilimi, yıldızların sıcaklığını ve yapısını yıldızlardan gelen ...............   rengine bağlı olarak tespit eder. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yildizsicakligi.gif  ",
         choiceA : "meteorların",
         choiceB : "ışık",
         choiceC : "gaz",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "4)	Fizik ve astronomi alanlarında çalışan bilim insanları evrendeki ...............   haritalarının oluşturulmasını sağlamışlardır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yildizharitasi1.gif  ",
         choiceA : "ay",
         choiceB : "mars",
         choiceC : "kıta",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5)	Yansıma, kırılma gibi ışık olaylarını inceleyen fizik alt dalına ...............   denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kirilma2.gif  ",
         choiceA : "termodinamik",
         choiceB : "optik",
         choiceC : "mekanik",
@@ -58,7 +58,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "6)	Katıhâl fiziği ...............   yapılı maddelerin karakteristiğini belirlemek için çalışmalar yapar. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/katihalfizigi2.gif  ",
         choiceA : "sıvı",
         choiceB : "kristal",
         choiceC : "gaz",
@@ -66,7 +66,7 @@ let questions = [
 		correct : "B"
     },	{
         question : "7)	...............   teknolojisi atom fiziğindeki çalışmalarla ortaya çıkmıştır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/laser3.gif  ",
         choiceA : "Lazer",
         choiceB : "Termodinamik",
         choiceC : "Uçak",
@@ -74,7 +74,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "8)	...............   çekirdek tepkimelerini inceleyen fizik alt dalıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fizyon2.gif  ",
         choiceA : "Atom fiziği ",
         choiceB : "Katı hal fiziği",
         choiceC : "Mekanik",
@@ -82,7 +82,7 @@ let questions = [
 		correct : "D"
     },    {
         question : "9)	Vektörel nicelikleri toplarken yalnızca şiddet değil ...............   de işleme dâhil edilir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/vectoraddition2.gif  ",
         choiceA : "sayısal değerler",
         choiceB : "açısal olmayan değerler",
         choiceC : "yön",
@@ -90,7 +90,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "10)	Vektörel nicelikler toplandığında toplam vektör toplananlardan daha ...............   değerde olabilir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/vectoraz2.gif  ",
         choiceA : "sistem",
         choiceB : "endüstriyel",
         choiceC : "küçük",
@@ -98,7 +98,7 @@ let questions = [
 		correct : "C"
     },	{
         question : "11)	TÜBİTAK, akademik çalışmaları ...............    alana aktaran bir kurumdur. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/endustri1.gif  ",
         choiceA : "endüstriyel",
         choiceB : "teorik",
         choiceC : "havasal",
@@ -106,7 +106,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "12)	Türkiye Atom Enerjisi Kurumu (TAEK) ...............   maddeleri, cihazları bulunduran, ithal ve ihraç eden kurumlara lisans verir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/radyasyon.gif  ",
         choiceA : "katı",
         choiceB : "sıvı",
         choiceC : "gaz",
@@ -114,7 +114,7 @@ let questions = [
 		correct : "D"
     },    {
         question : "13)	Askeri Elektronik Sanayi (ASELSAN) çalışmalarını; fizik, bilgisayar, elektrik-elektronik, makine ve endüstri mühendislikleri ile ...............   ve uzay alanlarında yürütmektedir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ucak2.gif  ",
         choiceA : "yer altı",
         choiceB : "mars",
         choiceC : "kimyager",
@@ -122,7 +122,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "14)	Avrupa Nükleer Araştırma Merkezi (CERN) dünyanın en büyük ...............  laboratuvarıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/cern2.gif  ",
         choiceA : "kimya",
         choiceB : "parçacık fiziği",
         choiceC : "gıda",
@@ -130,7 +130,7 @@ let questions = [
 		correct : "B"
     },	{
         question : "15)	CERN’deki ...............  araştırması kütlesi olmayan atomlara kütle kazandıran mekanizmanın varlığının tespitidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/lhc-hadron.gif  ",
         choiceA : "foton",
         choiceB : "takyon",
         choiceC : "nötron",

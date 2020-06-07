@@ -17,62 +17,62 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Akım ve ışık şiddeti temel büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/light2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "2)	1000 santimetre 1 metredir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/metre2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },	{
         question : "3)	Bir maddeyi oluşturan taneciklerin ortalama kinetik enerjisine sıcaklık denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/termometre2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "4)	Basınç ve enerji türetilmiş büyüklüklerdir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/temelbuyuklukler.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, 
 	    {
         question : "5)	Skaler büyüklükler ifade edilirken yön kullanılmaz. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/skaler.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "6)	Temel büyüklükler aynı zamanda skaler büyüklüklerdir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/temelbuyuklukler.png   ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "7)	Vektörel büyüklüklerin ifadesinde başlangıç noktası, şiddeti ve yönü olan doğru parçaları kullanılır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/vektorel.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "8)	Akım şiddeti, yönlü bir büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/akim.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },    {
         question : "9)	Zıt vektörler aynı doğrultuda olmak zorunda değildir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/zitvektorler.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "10)	Bir vektörün skalerle çarpımı vektörün doğrultusunu değiştirebilir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/vektorler4.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"

@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Katı cisimlerin kendilerine uygulanan kuvvete karşı gösterdikleri dirence ........... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dayaniklilik1.png  ",
         choiceA : "boyca yoğunluk",
         choiceB : "özkütle",
         choiceC : "dayanıklılık",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "2)	Dayanıklılık maddede cins, boyut ve ........... değerlerine bağlıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dayaniklilik2.png  ",
         choiceA : "sıcaklık",
         choiceB : "elektriksel iletkenlik",
         choiceC : "optik geçirgenlik",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "A"
     },	{
         question : "3) Cisim boyutları  kaç kat artarsa ........... ve ........... küpü oranında artar. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dayaniklilik3.png  ",
         choiceA : "özkütle, uzunluk",
         choiceB : "hacim, sıcaklık",
         choiceC : "alan, ağırlık",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "4) Küp şeklindeki cisimde kesit alanı ........... şeklindedir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dayaniklilik2.png  ",
         choiceA : "daire",
         choiceB : "hacim",
         choiceC : "özkütle",

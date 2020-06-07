@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Kütlesi, hacmi ve eylemsizliği olan her şeye ......... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/maddeninhalleri2.png  ",
         choiceA : "cisim",
         choiceB : "madde",
         choiceC : "katı",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "2) Evrendeki kütle ve ......... toplamı sabittir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/enerji2.png  ",
         choiceA : "enerji ",
         choiceB : "gaz",
         choiceC : "katı",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "A"
     },	{
         question : "3) Kütle temel ve ......... büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/skaler2.png  ",
         choiceA : "vektörel",
         choiceB : "türetilmiş",
         choiceC : "alansal",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "4) 1 miligram 10–6 ......... ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ceviri2.png  ",
         choiceA : "gram",
         choiceB : "ton",
         choiceC : "kilogram ",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5)	Eni, boyu ve yüksekliği eşit cisimler ......... şeklindedir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kup2.png  ",
         choiceA : "küp",
         choiceB : "silindir",
         choiceC : "kare",
@@ -58,15 +58,15 @@ let questions = [
 		correct : "A"
     }, {
         question : "6)	Aynı koşullarda ......... değeri farklı cisimler kesinlikle farklı maddelerden yapılmışlardır. ",
-        imgSrc : "img/  ",
-        choiceA : "öz kütle ",
+        imgSrc : "img/ayirtedici3.png  ",
+        choiceA : "özkütle ",
         choiceB : "hacim",
         choiceC : "kütle",
 		choiceD : "sıcaklık",
 		correct : "A"
     },	{
         question : "7)	Dayanıklılık katı cismin ağırlığı ile ......... orantılıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dayaniklilik3.png  ",
         choiceA : "doğru",
         choiceB : "sabit",
         choiceC : " düz",
@@ -74,7 +74,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "8)	Bir kap içerisindeki su yüzeyinin gerilimini .........  kuvvetleri sağlar. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kohezyon3.png  ",
         choiceA : "adezyon",
         choiceB : "kohezyon ",
         choiceC : "öz kütle",
@@ -82,7 +82,7 @@ let questions = [
 		correct : "B"
     },    {
         question : "9)	Sıvıların  ıslatma özelliğinin artması için adezyon kuvvetlerinin kohezyon kuvvetlerinden ......... olması gerekir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kohezyon4.png  ",
         choiceA : "sabit",
         choiceB : "büyük",
         choiceC : "küçük",
@@ -90,7 +90,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "10)	Su  dolu bir kaba batırılan boruda kesit alan azaldıkça sıvı seviyesi ......... ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kilcallik4.png  ",
         choiceA : "sabit",
         choiceB : "artar",
         choiceC : "azalır",
