@@ -16,84 +16,84 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "1) Barajlarda belirli bir yükseklikten düşen su kütlesinin ........... enerjisinden yararlanılır. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        question : "1) Barajlarda belirli bir yükseklikte toplanan su kütlesinin ........... enerjisinden yararlanılır. ",
+        imgSrc : "img/hidroelekttrik1.gif ",
+        choiceA : "kimyasal ",
+        choiceB : "kinetik ",
         choiceC : "potansiyel",
-		choiceD : " ",
+		choiceD : "elektrik ",
 		correct : "C"
     }, {
         question : "2) Flamanlı ampullerde ........... enerjisi ışık enerjisine dönüşür. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
-        choiceC : "   ",
+        imgSrc : "img/lamba1.gif ",
+        choiceA : "kimyasal ",
+        choiceB : "kinetik ",
+        choiceC : "potansiyel",
 		choiceD : "ısı",
 		correct : "D"
     },	{
         question : "3) Akümülatörler ........... enerjiyi elektrik enerjisine dönüştürür. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/kursunaku.gif ",
         choiceA : "kimyasal",
-        choiceB : " ",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceB : "potansiyel ",
+        choiceC : "kinetik",
+		choiceD : "mekanik",
 		correct : "A"
     }, {
         question : "4) Rüzgâr türbinleri ........... enerjisinden elektrik enerjisi üretir. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        imgSrc : "img/ruzgarjenatoru2.gif ",
+        choiceA : "kimyasal",
+        choiceB : "potansiyel",
         choiceC : "hareket",
-		choiceD : " ",
+		choiceD : "ısı",
 		correct : "C"
     },  {
-        question : "5) İş miktarı ........... doğrultusunda alınan yola bağlıdır. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
+        question : "5) İş miktarı ........... doğrultusunda yapılan yer değiştirmeye bağlıdır. ",
+        imgSrc : "img/isyapma.gif ",
+        choiceA : "potansiyel",
         choiceB : "kuvvet",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceC : "kinetik",
+		choiceD : "ivme",
 		correct : "B"
     },	{
         question : "6) İş ........... bir büyüklüktür. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/isformulu3.png ",
         choiceA : "skaler",
-        choiceB : " ",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceB : "temel",
+        choiceC : "vektörel",
+		choiceD : "tensörel",
 		correct : "A"
     }, {
-        question : "7) Yola ........... kuvvet iş yapmaz. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        question : "7) Yerdeğiştirmeye ........... kuvvet iş yapmaz. ",
+        imgSrc : "img/dikkuvvetisyapmaz.png ",
+        choiceA : "paralel ",
+        choiceB : "ters",
         choiceC : "dik",
-		choiceD : " ",
+		choiceD : "düz",
 		correct : "C"
     }, {
         question : "8) Watt.saniye  ........... birimidir. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
+        imgSrc : "img/gucformulu.png ",
+        choiceA : "güç",
         choiceB : "iş",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceC : "kuvvet",
+		choiceD : "hız",
 		correct : "B"
     },	{
         question : "9) İşin yapılma hızına ........... denir. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
-        choiceC : "   ",
+        imgSrc : "img/halter.gif ",
+        choiceA : "ivme",
+        choiceB : "iş",
+        choiceC : "enerji",
 		choiceD : "güç",
 		correct : "D"
     }, {
         question : "10) Hava moleküllerinin titreştirilmesi ile ........... enerjisi oluşur. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        imgSrc : "img/sescatali5.gif ",
+        choiceA : "hidroelektrik",
+        choiceB : "termoelektrik",
         choiceC : "ses",
-		choiceD : " ",
+		choiceD : "ışık",
 		correct : "C"
     }
 	

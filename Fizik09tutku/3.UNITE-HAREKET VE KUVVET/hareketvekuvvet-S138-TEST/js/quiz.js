@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Cisimlerin bir başlangıç noktasına göre yerini gösteren .......... vektörüdür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/konum1.png  ",
         choiceA : "ivme",
         choiceB : "konum",
         choiceC : "hız",
@@ -25,7 +25,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "2)	Cisimlerin birim zamanda aldığı yola ortalama .......... denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ortalamasurat1b.png  ",
         choiceA : "hız",
         choiceB : "ivme",
         choiceC : "kuvvet",
@@ -33,7 +33,7 @@ let questions = [
 		correct : "D"
     },	{
         question : "3) Sürat .......... bir büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/asurat13.png  ",
         choiceA : "vektörel",
         choiceB : "kuvvetsel",
         choiceC : "skaler",
@@ -41,7 +41,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "4)	Eşit zamanlarda eşit yer değiştirmeler yapan hareketli .......... hızla hareket etmektedir ",
-        imgSrc : "img/  ",
+        imgSrc : "img/sabithizli3.gif  ",
         choiceA : "düzgün hızlanan",
         choiceB : "sabit",
         choiceC : "düzgün yavaşlayan",
@@ -50,7 +50,7 @@ let questions = [
     }, 
 	    {
         question : "5)	Hareketliler .......... değiştirirken de hareketleri ivmelidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/daireselhareket-Orbital_motion.gif  ",
         choiceA : "durmakta iken",
         choiceB : "sabit konumda dururken",
         choiceC : "yön",
@@ -58,7 +58,7 @@ let questions = [
 		correct : "C"
     }, {
         question : "6)	Yavaşlayan cismin hareketinde ivme ile hız vektörü .......... yönlüdür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/duzgunyavaslayanl3.png  ",
         choiceA : "ters",
         choiceB : "aynı ",
         choiceC : "dik",
@@ -66,7 +66,7 @@ let questions = [
 		correct : "A"
     },	{
         question : "7)	Kuvvet, cisimlerin hareket ve biçiminde değişme meydana getirebilen .......... bir büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/force3.gif  ",
         choiceA : "vektörel",
         choiceB : "skaler",
         choiceC : "hızsal",
@@ -74,7 +74,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "8)	Duran cisimler kuvvet uygulanarak harekete zorlandıklarında .......... sürtünme kuvveti etkisinde kalır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/surtunme.gif  ",
         choiceA : "ivme",
         choiceB : "konum",
         choiceC : "kinetik",
@@ -82,7 +82,7 @@ let questions = [
 		correct : "D"
     },    {
         question : "9)	Fiziksel temas gerektirmeyen kuvvetlere .......... kuvveti denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/alankuvvetleril3.png  ",
         choiceA : "temas gerektiren",
         choiceB : "alan",
         choiceC : "tepki",
@@ -90,7 +90,7 @@ let questions = [
 		correct : "B"
     }, {
         question : "10)	Etki ve tepki kuvvetleri .......... cisimler üzerinde bulunduklarından bileşkeleri alınamaz ",
-        imgSrc : "img/  ",
+        imgSrc : "img/etkitepki3.png  ",
         choiceA : "aynı",
         choiceB : "konum",
         choiceC : "hız",

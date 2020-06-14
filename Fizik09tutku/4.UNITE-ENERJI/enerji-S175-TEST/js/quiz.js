@@ -17,43 +17,43 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Canlılarda  ........... faaliyetleri  enerji ile gerçekleşir ",
-        imgSrc : "img/ ",
-        choiceA : " ",
+        imgSrc : "img/hucre1.gif ",
+        choiceA : "kedi",
         choiceB : "hücre",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceC : "radyo   ",
+		choiceD : "tren ",
 		correct : "B"
     }, {
         question : " 2) Vücudumuzun gereksinim duyduğu enerji; karbonhidrat, protein ve ........... gibi besinlerle alınır.",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
-        choiceC : "   ",
+        imgSrc : "img/zeytinyagi.gif ",
+        choiceA : "patates ",
+        choiceB : "yumurta",
+        choiceC : "nişasta",
 		choiceD : "yağ",
 		correct : "D"
     },	{
         question : "3) Yetişkin bir insanın dinlenme esnasında yalnızca yaşamını sürdürmesi için alması gereken enerjiye ........... enerji gereksinimi denir.",
-        imgSrc : "img/ ",
-        choiceA : " temel",
-        choiceB : " ",
-        choiceC : "   ",
-		choiceD : " ",
+        imgSrc : "img/insanenerji1.gif ",
+        choiceA : "temel",
+        choiceB : "kimyasal",
+        choiceC : "potansiyel",
+		choiceD : "ruhsal",
 		correct : "A"
     }, {
         question : "4) Sağlıklı beslenmede ........... oranı yüksek besinler tüketilmelidir. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        imgSrc : "img/obezite1.gif ",
+        choiceA : "bitkisel",
+        choiceB : "hayvansal",
         choiceC : "besin-lif ",
-		choiceD : " ",
+		choiceD : "inorganik madde",
 		correct : "C"
     },  {
         question : "5) Bir makinede ........... makineye verilen enerji aynı iken alınan enerjinin  artması ile artar.",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        imgSrc : "img/verimmotor.gif ",
+        choiceA : "güç",
+        choiceB : "fiyat",
         choiceC : "verim",
-		choiceD : " ",
+		choiceD : "benzin",
 		correct : "C"
     }
 	

@@ -17,62 +17,62 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Yer değiştirme ve alınan yol eşit büyüklükte olabilir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yerdegistirmeveyol1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "2)	Düzgün doğrusal harekette ivme vektörü, hız vektörü ile aynı yönlüdür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/duzgundogrusal1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },	{
         question : "3)	Konum-zaman grafiklerinde eğim hareketlinin hızını verir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/konum-zaman1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "4)	İvme-zaman grafiklerinde grafiğin altında kalan alanlar hareketlinin hızını verir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ivme-zaman1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, 
 	    {
         question : "5)	Hızlanan harekette hız ve ivme zıt yönlü vektörlerdir.",
-        imgSrc : "img/  ",
+        imgSrc : "img/ivme-zamanarti1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "6) Cisim harekete başladığında kinetik sürtünme katsayısı, statik sürtünme katsayısından küçük değer alır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kineticstatic1e.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "7)	Kuvvet şiddetini ölçen araçlara dinamometre denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dinamometre2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "8)	Sabit net kuvvet etkisindeki cisimler sabit hızla hareket eder. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/kineticstatic2e.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },    {
         question : "9)	Dengelenmiş kuvvetler etkisindeki cisimler durmakta veya sabit hızla hareket etmektedir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/sabithizli3.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "10)	Etki ve tepki kuvvetlerinin doğrultu ve yönleri aynıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/etkitepki4.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"

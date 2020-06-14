@@ -17,43 +17,43 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Enerji bir türden diğerine dönüşüp bir sistemden diğerine aktarılabilir.",
-        imgSrc : "img/ ",
+        imgSrc : "img/enerjidonusumu3.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "2) Bir ampulde elektrik enerjisi harcanırken ısı ve ışık enerjisine dönüşüm gerçekleşmektedir. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/lamba1.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "3) Akümülatörlerde kimyasal enerji tüketilirken yalnızca elektrik ve ısı enerjilerine dönüşüm olur. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/akuelektroliz2.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "4) Dalga santralleri mekanik enerjiden elektrik enerjisi üretimi gerçekleştirir. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/dalgasantrali2.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },  {
         question : "5) Güneş pilleri ışık enerjisinden ısı enerjisi üretirler. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/gunespanel.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },	{
         question : "6) Sürtünmesiz ortamlarda yerden belirli bir yükseklikten bırakılan cisimlerin yere düşerken mekanik enerjisi artar. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/surtunmesiz5.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "7) Dış kuvvetlerin bulunmadığı sürtünmesiz ortamlarda cisimler veya sistemler için mekanik enerji sabittir. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/mekanikenerji2.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"

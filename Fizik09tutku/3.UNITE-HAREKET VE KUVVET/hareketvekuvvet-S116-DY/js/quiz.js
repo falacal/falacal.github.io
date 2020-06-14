@@ -16,74 +16,80 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Kinematik, hareketin nedenini değil, nasıl gerçekleştiğini inceler. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/araba1.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "2) Hareket, cisimlerin sabit kabul edilen bir noktaya göre konumunu değiştirmesidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/araba2.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "3) Öteleme, nesnelerin bir nokta etrafında dolanma hareketidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/oteleme2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "4) Katı madde molekülleri bulundukları yerde titreşim hareketi yapar. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/katisivi2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, 
 	    {
         question : "5) Yol skaler, yer değiştirme vektörel büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yolyerdegistirme2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "6) Sürat ve hız alınan yola bağlı hesaplanan büyüklüklerdir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/hizsurat3.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },	{
         question : "7)	Konum-zaman grafiklerinde eğim hızı verir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/konumzaman1.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "8) İvmeli harekete düzgün doğrusal hareket denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/sabithizli1b.png   ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },    {
         question : "9) İvmesi sabit olan cisimler sabit hızla hareket etmektedir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/hizzamanivme1a.png       ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "10)	Hız-zaman grafiklerindeki eğim ivmeyi verir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/hizzaman1a.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "11)	Hız-zaman grafiklerinde grafiğin altında kalan alan yer değiştirmeyi verir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yerdegistirme1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "12)	İvme ve hız değişim vektörleri daima aynı yönlüdür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/ivmehizdegisimi1b.png  ",
+        choiceA : "Doğru",
+        choiceB : "Yanlış",
+		correct : "A"
+    }, {
+        question : "13) Yuvarlanan cisimler hem öteleme hem dönme hareketi yaparlar. ",
+        imgSrc : "img/otelemedonme2.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"

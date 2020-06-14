@@ -17,55 +17,54 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Nükleer enerji  ............. enerji kaynaklarındandır. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
+        imgSrc : "img/yenilenemez1.png  ",
+        choiceA : "kimyasal",
+        choiceB : "yenilenebilir ",
         choiceC : "yenilenemeyen",
-		choiceD : " ",
+		choiceD : "mekanik",
 		correct : "C"
     }, {
         question : "2) Fosil yakıtların temelinde  ............. enerjisi vardır. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
+        imgSrc : "img/yenilenemez2.png ",
+        choiceA : "biyokütle",
         choiceB : "güneş",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceC : "ay",
+		choiceD : "kimyasal",
 		correct : "B"
     },	{
         question : "3) Hidrolik enerji ............. oluşturmaz. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
-        choiceC : "   ",
+        imgSrc : "img/hidroelektrik2.png ",
+        choiceA : "mekanik enerji",
+        choiceB : "potansiyel enerji",
+        choiceC : "kinetik enerji",
 		choiceD : "kirlilik",
 		correct : "D"
     }, {
         question : "4) Jeotermal enerji  ............. enerjisidir. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
+        imgSrc : "img/jeotermal2.png ",
+        choiceA : "rüzgar ",
         choiceB : "ısı",
-        choiceC : "   ",
-		choiceD : " ",
-		correct : "B"
+        choiceC : "güneş",
+		choiceD : "biyokütle",
     },  {
         question : "5)	Güneş enerjisi birim yüzeye düşen Güneş ışınları süreklilik göstermediğinden ............. gerektirir.",
-        imgSrc : "img/ ",
+        imgSrc : "img/gunes2.gif ",
         choiceA : "depolama",
-        choiceB : " ",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceB : "kullanılmamayı",
+        choiceC : "verimsizlik",
+		choiceD : "pahalılık",
 		correct : "A"
     },	{
         question : "6)	Fosil kaynaklar, su ve biyokütleden elde edilen ............. enerjisi enerji taşıyıcısıdır. ",
-        imgSrc : "img/ ",
-        choiceA : " ",
-        choiceB : " ",
-        choiceC : "   ",
+        imgSrc : "img/yenilenemez1.png ",
+        choiceA : "radyasyon",
+        choiceB : "kinetik",
+        choiceC : "mekanik",
 		choiceD : "hidrojen",
 		correct : "D"
     }, {
         question : "7)	Rüzgâr türbinlerinin kurulacağı tarlalar için  ............. çıkartılır. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/ruzgar-turbin.gif ",
         choiceA : "rüzgar atlası",
         choiceB : " ",
         choiceC : "   ",
@@ -73,7 +72,7 @@ let questions = [
 		correct : "A"
     }, {
         question : "8) Rüzgâr  enerjisi için  ............. maliyeti gerekmez. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/ruzgarjenatoru2.gif ",
         choiceA : " ",
         choiceB : "yakıt",
         choiceC : "   ",
@@ -81,7 +80,7 @@ let questions = [
 		correct : "B"
     },	{
         question : "9) Biyokütle enerjisi için .............  odun özü gibi yüksek enerji içerikli maddeler depolanır. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/biyokutlea1.png ",
         choiceA : " ",
         choiceB : " ",
         choiceC : "   ",
@@ -89,7 +88,7 @@ let questions = [
 		correct : "D"
     }, {
         question : "10) Enerji tasarrufu en ucuz yeni bir  .............  kaynağı olur. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/bosaharcama.gif ",
         choiceA : " enerjji",
         choiceB : " ",
         choiceC : "   ",

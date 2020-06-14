@@ -16,62 +16,62 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Kuvvet temel büyüklüktür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/temelbuyuklukler.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "2) Kuvvet cisimlere dönme hareketi kazandırabilir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/tork1.gif",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "3) Dinamometreler ile cisimlerin madde miktarı ölçülür. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/dinamometre1b.png  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "4)	Hava moleküllerinin yelkenliyi hareket ettirmesi alan kuvvetlerinin varlığını gösterir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/yelkenli3s.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, 
 	    {
         question : "5)	Manyetik kuvvetler alan kuvvetleridir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/manyetikkuvvetler1.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "6)	Ağırlık bir alan kuvvetidir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/mevsimlerinolusumu1.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "7)	Atom çekirdeğindeki proton ve nötronların bir arada bulunmasını  sağlayan kuvvetlere zayıf nükleer kuvvetler denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/zayifnukleerkuvvet3.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "8) Çekirdekteki parçacıklar arasında bulunan kuvvetlere güçlü nükleer kuvvetler denir. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/guclunukleerkuvvet.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },    {
         question : "9)	Kütle çekim kuvvetinin menzili sonsuzdur. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/fotongravite1.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "10)	Elektromanyetik kuvvetlerin menzili sınırlıdır. ",
-        imgSrc : "img/  ",
+        imgSrc : "img/emanyetik2.gif  ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"

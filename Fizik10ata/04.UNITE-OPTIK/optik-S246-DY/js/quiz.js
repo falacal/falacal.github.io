@@ -37,7 +37,7 @@ let questions = [
 
 		correct : "A"
     },      {
-        question : "4. 4.	Serap olayı, ışığın tam yansıma yapabilme özelliğinden dolayı bir nesnenin olduğu yerden farklı bir yerde algılanmasıdır.",
+        question : "4. Serap olayı, ışığın tam yansıma yapabilme özelliğinden dolayı bir nesnenin olduğu yerden farklı bir yerde algılanmasıdır.",
         imgSrc : "img/serap.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
@@ -45,7 +45,7 @@ let questions = [
 		correct : "A"
     },        {
         question : "5. Çok kırıcı ortamdan az kırıcı ortama bakan gözlemci, cismi kendisine daha yakın algılar.",
-        imgSrc : "img/tamyanima1.png",
+        imgSrc : "img/tamyansima1.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 
