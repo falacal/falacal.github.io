@@ -66,33 +66,33 @@ let questions = [
         question : "7)	Rüzgâr türbinlerinin kurulacağı tarlalar için  ............. çıkartılır. ",
         imgSrc : "img/ruzgar-turbin.gif ",
         choiceA : "rüzgar atlası",
-        choiceB : " ",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceB : "siyasi atlası",
+        choiceC : "coğrafi atlası",
+		choiceD : "demografik yapı",
 		correct : "A"
     }, {
         question : "8) Rüzgâr  enerjisi için  ............. maliyeti gerekmez. ",
         imgSrc : "img/ruzgarjenatoru2.gif ",
-        choiceA : " ",
+        choiceA : "verim",
         choiceB : "yakıt",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceC : "arazi",
+		choiceD : "güneş enerjisi",
 		correct : "B"
     },	{
         question : "9) Biyokütle enerjisi için .............  odun özü gibi yüksek enerji içerikli maddeler depolanır. ",
         imgSrc : "img/biyokutlea1.png ",
-        choiceA : " ",
-        choiceB : " ",
-        choiceC : "   ",
+        choiceA : "potansiyel",
+        choiceB : "mekanik",
+        choiceC : "rüzgar",
 		choiceD : "selüloz",
 		correct : "D"
     }, {
         question : "10) Enerji tasarrufu en ucuz yeni bir  .............  kaynağı olur. ",
         imgSrc : "img/bosaharcama.gif ",
-        choiceA : " enerjji",
-        choiceB : " ",
-        choiceC : "   ",
-		choiceD : " ",
+        choiceA : " enerji",
+        choiceB : "kuvvet",
+        choiceC : "hız",
+		choiceD : "ivme",
 		correct : "A"
     }
 	

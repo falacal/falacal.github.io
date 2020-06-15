@@ -17,61 +17,61 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1) Bir cisme kuvvet uygulandığında bilimsel anlamda mutlaka iş yapılır. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/isyok-1.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "B"
     }, {
         question : "2) Kaynağı doğadan olan rüzgâr, Güneş, hidrolik (su) gibi enerji türlerine yenilenebilir enerji denir. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/yenilenebilir.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "A"
     },	{
         question : "3) Sürtünme kuvvetinin yaptığı iş, sistemler için kayıp enerjiye eşittir. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/surtunme1.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "A"
     }, {
         question : "4) Yenilenebilir enerji kaynaklarının dezavantajı yoktur. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/yenilenebilir3.gif",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "B"
     },  {
         question : "5) Vücudumuzun çalışması için gerekli enerjiyi besinlerden temin ederiz. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/besinler1.png ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "A"
     },	{
         question : "6) Birim zamanda harcanan enerji, güç olarak tanımlanır. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/halter2.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "A"
     }, {
         question : "7) Çekim potansiyel enerjisi cisimlerin yerden yüksekliğine bağlı değildir. ",
-         imgSrc : "img/ ",
+         imgSrc : "img/potansiyelenerji2.png ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "B"
     }, {
         question : "8) Biyokütle, yenilenemez enerji kaynaklarındandır. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/biyokutlea1.png ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "B"
     },	{
         question : "9) Rüzgâr türbinlerinde hareket enerjisi, elektrik enerjisine dönüşür. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/ruzgarjenatoru2.gif ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "A"
     }, {
         question : "10) A sınıfı cihazlar enerji tasarrufu yüksek cihazlardır. ",
-        imgSrc : "img/ ",
+        imgSrc : "img/enerjjiverimliligi.png ",
         choiceA : "Doğru",
         choiceB : "Yanlış",
   		correct : "A"
