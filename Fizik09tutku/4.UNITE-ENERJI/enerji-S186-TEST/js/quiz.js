@@ -45,7 +45,8 @@ let questions = [
         choiceA : "rüzgar ",
         choiceB : "ısı",
         choiceC : "güneş",
-		choiceD : "biyokütle",
+	choiceD : "biyokütle",
+	    correct : "B"
     },  {
         question : "5)	Güneş enerjisi birim yüzeye düşen Güneş ışınları süreklilik göstermediğinden ............. gerektirir.",
         imgSrc : "img/gunes2.gif ",
