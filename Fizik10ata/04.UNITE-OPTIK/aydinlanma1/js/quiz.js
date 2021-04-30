@@ -170,8 +170,61 @@ let questions = [
 		correct : "B"
     } 
 	
+	, 
+ 	    {
+        question : "19. Boşlukta aydınlanma olmaz.",
+        
+imgSrc : "img/dusun.png",
+        choiceA : "Doğru",
+        choiceB : "Yanlış",
+
+		correct : "A"
+    } 
+
+, 
+ 	    {
+        question : "20. Tamamen karanlık bir odada beyaz bir kâğıt parçası görülebilir. ",
+        
+imgSrc : "img/dusun.png",
+        choiceA : "Doğru",
+        choiceB : "Yanlış",
+
+		correct : "B"
+    } 
+, 
+ 	    {
+        question : "21. Odanızın duvarı ışığı yansıtır. ",
+        
+imgSrc : "img/dusun.png",
+        choiceA : "Doğru",
+        choiceB : "Yanlış",
+
+		correct : "A"
+    } 
+, 
+ 	    {
+        question : "21. Cisimler ışıksız ortamda biraz görünür. ",
+        
+imgSrc : "img/dusun.png",
+        choiceA : "Doğru",
+        choiceB : "Yanlış",
+
+		correct : "B"
+    } 
+, 
+ 	    {
+        question : "22.  Şiddeti I olan kaynağın K, L, M ve N noktaları çevresinde oluşturduğu aydınlanma şiddetlerini karşılaştırınız. ",
+        
+imgSrc : "img/aydinlanma3.png",
+        choiceA : "Ek>El>Em>En",
+        choiceB : "En>Em>El>Ek",
+
+		correct : "A"
+    } 
 	
-	
+
+
+
 	
 // 10 Doğru/Yanlış Sorusu select all elements	
 	
