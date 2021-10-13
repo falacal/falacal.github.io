@@ -58,9 +58,23 @@
       while (q.length) {
         i = Math.floor(Math.random() * q.length);
         
-        quiz += '<div id="quiz-q' + qNumber + '" class="question-block" data-qid="' + (qNumber + 1) + '" style="display:none;"><div class="quiz-multi-question">' + (typeof q[i].question != 'undefined' ? q[i].question + (q[i].image ? '<img class="quiz-image" src="resources/images/test-images/' + q[i].image + '" alt="' + q[i].image + '">' : '') : '<div class="text-passage' + (q[i].vertical ? ' vertical-text' : '') + '" ' + (q[i].text.replace(/<br>/g, '').length < 50 ? 'style="text-align:center;"' : '') + '>' + q[i].text + '</div>' + (q[i].helper || '')) + '</div>';
+        quiz += '<div id="quiz-q' + qNumber + '" class="question-block" data-qid="'	+ (qNumber + 1) + '" style="display:none;">  <img class="quiz-image"  src="resources/images/test-images/' + q[i].image + '" alt="' + q[i].image + '">                            <div class="quiz-multi-question" >  ' 
+				+ (typeof q[i].question != 'undefined' ? q[i].question 
+				
+				
+				
+				  : '<div class="text-passage' + (q[i].vertical ? ' vertical-text' : '') + '" ' + (q[i].text.replace(/<br>/g, '').length < 50 ? 'style="text-align:center;"' : '') 
+				+ '>' + q[i].text + '</div>' + (q[i].helper || '')) + '</div>';
 
-        // ready-only questions contain text only, no answers
+       
+
+
+
+
+
+
+
+	   // ready-only questions contain text only, no answers
         if (q[i].text) {
           quiz += '<div class="quiz-multi-row"><button class="quiz-multi-answer next-question" onclick="EZQuiz.progress(this, true);">NEXT</button></div>';
           ++EZQuiz.stats.exclude; // exclude this block from the overall score
@@ -191,7 +205,7 @@
       document.getElementById('quiz-result').innerHTML = 
       '<div id="complete-banner" class="center">Sınavınız Sona Erdi!</div>'+
       '<div id="result-list">'+
-        '<div class="result-row"><span class="result-label">Çözülen Soru Sayısı:</span>' + problems + '</div>'+
+        '<div class="result-row"><span class="result-label">Cevaplanan Soru:</span>' + problems + '</div>'+
         '<div class="result-row"><span class="result-label">Yanlış Sayısı:</span>' + EZQuiz.stats.mistakes + '</div>'+
         '<div class="result-row"><span class="result-label">Puanınız:</span>' + EZQuiz.stats.score + '%</div>'+
         '<div class="result-row"><span class="result-label">Tamamlama Süreniz:</span>' + timer.innerHTML + '</div>'+
