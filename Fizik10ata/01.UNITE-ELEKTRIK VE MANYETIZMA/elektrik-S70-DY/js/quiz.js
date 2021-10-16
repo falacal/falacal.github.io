@@ -99,7 +99,24 @@ let questions = [
         choiceB : "Yanlış",
 
 		correct : "A"
+    },   {
+        question : "13- Şekildeki tüpün kesitinden 2 saniyede gösterilen yönlerde  –7 C ve +5 C’luk elektrik yükü geçiyor. Buna göre tüpteki akım şiddeti hangi yönde kaç amperdir?", 
+        imgSrc : "img/camtupiyon.png",
+        choiceA : "- yönde 1 Amperlik akım geçer.",
+        choiceB : "+ yönde 6 Amperlik akım geçer.",
+
+		correct : "B"
+    },   {
+        question : "14-  Aynı maddeden yapılmış X ve Y tellerinin uzunlukları ve kesit alanları şekilde verilmiştir. X direnci 60 ohm ise Y direnci kaç ohm dur?", 
+        imgSrc : "img/XYDirenci.png",
+        choiceA : "Boy azaldığından 60/2=30 ohm ve Kesit alanı 3 kat arttığı için 30/3=10 ohm",
+        choiceB : "Boyu yarıya indiğinden ve Kesit alanı 3 kat arttığı için  2+3=15 ve 60/15=4 ohm",
+
+		correct : "A"
     }
+	
+	
+	
 	//,     {
      //   question : " ",
      //   imgSrc : "img/",
