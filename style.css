@@ -13,7 +13,7 @@ background : #E16027 url(img/bg.jpg) repeat-y top center;
 #container {
 position: relative;
 min-height: 100%;
-width : 800px;
+width : 750px;
 margin : 0 auto;
 margin-left: 200px;
 padding-bottom: 30px;
