@@ -131,9 +131,9 @@ background : inherit;
 			/*FOOTER*/
 #footer {
 clear:both;
-position: absolute;
+position: relative;
 bottom: 0;
-width: 750px;
+width: 825px;
 border-top: 1px solid #eee;
 background: #eee;
 } 
