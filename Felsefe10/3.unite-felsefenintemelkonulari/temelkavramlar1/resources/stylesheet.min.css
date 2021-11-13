@@ -529,13 +529,13 @@ width: 60%;
 .quiz-over .quiz-multi-answer { pointer-events:none; }
 
 .quiz-over .quiz-multi-answer.selected-answer { border-color:#080; }
-.quiz-over .quiz-multi-answer.selected-answer:before, .multi-quiz.quiz-over .quiz-multi-answer[data-answer="true"]:before { color:#080; }
+.quiz-over .quiz-multi-answer.selected-answer:before, .multi-quiz.quiz-over .quiz-multi-answer[data-answer="true"]:before { color:#080; border-right-style:double;background:#369;}
 
-.quiz-over .question-block.wrong-answer .quiz-multi-answer.selected-answer { border-color:#F00; }
-.quiz-over .question-block.wrong-answer .quiz-multi-answer.selected-answer:before { color:#F00; }
+.quiz-over .question-block.wrong-answer .quiz-multi-answer.selected-answer { border-color:#FF3333;  background:#FF3333; }
+.quiz-over .question-block.wrong-answer .quiz-multi-answer.selected-answer:before { color:#FF3333;  }
 
-.quiz-over .question-block.wrong-answer .quiz-multi-answer[data-answer="true"] { border-color:#369; }
-.quiz-over .question-block.wrong-answer .quiz-multi-answer[data-answer="true"]:before { color:#369; }
+.quiz-over .question-block.wrong-answer .quiz-multi-answer[data-answer="true"] { border-color:#369;  }
+.quiz-over .question-block.wrong-answer .quiz-multi-answer[data-answer="true"]:before { color:#369; background:#369; border-right-style:double;}
 
 /* read-only questions */
 #exercise .text-passage {
