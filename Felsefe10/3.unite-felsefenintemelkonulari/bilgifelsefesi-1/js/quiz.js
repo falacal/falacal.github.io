@@ -177,7 +177,7 @@ let questions = [
 	    choiceD : "uygunluk",
 	    correct : "C"
     } , 	{
-        question : "21.	Bilginin doğruluk ölçütlerinden biri olan   ........ :  Bir bilgi veya düşüncenin bir bütünlük içinde tutarsızlık içermeden kavranmasıdır. Örnek, diş ağrısının hissedilip bilinmesi açık bilgidir.",
+        question : "21.	Bilginin doğruluk ölçütlerinden biri olan   ........ :  Bir bilgi veya düşüncenin bir bütünlük içinde tutarsızlık içermeden kavranmasıdır. Örnek, diş ağrısının hissedilip bilinmesi bu tür bilgidir.",
         imgSrc : "",
 		choiceA : "yarar",
         choiceB : "açık bilgi",
@@ -185,7 +185,7 @@ let questions = [
 	    choiceD : "apaçıklık",
 	    correct : "B"
     } , 	{
-        question : "22.	Bilginin doğruluk ölçütlerinden biri olan   ........ : Bir bilgi veya önermenin bir başka bilgi veya önerme ile karıştırılmamasıdır. Örneğin, hangi dişin ağrıdığının bilinmesi seçik bilgidir.",
+        question : "22.	Bilginin doğruluk ölçütlerinden biri olan   ........ : Bir bilgi veya önermenin bir başka bilgi veya önerme ile karıştırılmamasıdır. Örneğin, hangi dişin ağrıdığının bilinmesi bu tür bilgidir.",
         imgSrc : "",
 		choiceA : "yarar",
         choiceB : "açık bilgi",
@@ -233,7 +233,7 @@ let questions = [
 	    choiceD : "entüisyonizm(sezgicilik)",
 	    correct : "C"
     } , 	{
-        question : "28. Rasyonalizme tepki olarak doğmuşdur. Bu görüşe göre insan aklı sınırlıdır. Çünkü insan aklı zaman ve mekan içinde deneye daya <br> narak bilgi elde eder. Böyle kaynak <br> lar ise  hakikatin bilgisini veremez diyen görüşe  ........ denir.",
+        question : "28. Rasyonalizme tepki olarak doğmuşdur. Bu görüşe göre insan aklı sınırlıdır. Çünkü insan aklı zaman ve mekan içinde deneye dayanarak bilgi elde eder. Böyle kaynak <br> lar ise  hakikatin bilgisini veremez diyen görüşe  ........ denir.",
         imgSrc : "",
 		choiceA : "kritisizm (eleştiricilk)",
         choiceB : "pragmatizm (faydacılık)",
