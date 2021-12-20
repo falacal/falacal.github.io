@@ -177,7 +177,7 @@ let questions = [
 	    choiceD : "uygunluk",
 	    correct : "C"
     } , 	{
-        question : "21.	Bilginin doğruluk ölçütlerinden biri olan   ........ :  Bir bilgi veya düşüncenin bir bütünlük içinde tutarsızlık içermeden kavranmasıdır. Örnek, diş ağrısının hissedilip bilinmesi bu tür bilgidir.",
+        question : "21.	Bilginin doğruluk ölçütlerinden biri olan   ........ :  Bir bilgi veya düşüncenin bir bütünlük içinde tutarsızlık içermeden kavranması dır. Örnek, diş ağrısının hissedilip bilinmesi bu tür bilgidir.",
         imgSrc : "",
 		choiceA : "yarar",
         choiceB : "açık bilgi",
@@ -233,7 +233,7 @@ let questions = [
 	    choiceD : "entüisyonizm(sezgicilik)",
 	    correct : "C"
     } , 	{
-        question : "28. Rasyonalizme tepki olarak doğmuşdur. Bu görüşe göre insan aklı sınırlıdır. Çünkü insan aklı zaman ve mekan içinde deneye dayanarak bilgi elde eder. Böyle kaynak <br> lar ise  hakikatin bilgisini veremez diyen görüşe  ........ denir.",
+        question : "28. Rasyonalizme tepki olarak doğmuşdur. Bu görüşe göre insan aklı sınırlıdır. Çünkü insan aklı zaman ve mekan içinde deneye dayanarak bilgi elde eder. Böyle kaynaklar ise  hakikatin bilgisini veremez diyen görüşe  ........ denir.",
         imgSrc : "",
 		choiceA : "kritisizm (eleştiricilk)",
         choiceB : "pragmatizm (faydacılık)",
