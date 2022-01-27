@@ -1,0 +1,159 @@
+<HTML>
+<HEAD>
+<TITLE>HTML Tags - Drag & Drop</TITLE>
+<script>
+ function allowDrop(ev) {
+     ev.preventDefault();
+ }
+
+ function drag(ev) {
+     ev.dataTransfer.setData("text", ev.target.id);
+ }
+
+ function drop(ev) {
+     ev.preventDefault();
+     var data = ev.dataTransfer.getData("text");
+     ev.target.appendChild(document.getElementById(data));
+ }
+
+function checkMyAnswers(number) {
+	var score = 0;
+	for (i = 1; i <= number; i++) { 
+		var parentDIV = document.getElementById("drag" + i).parentNode;
+		if (parentDIV.id==("div" + i)) {
+			parentDIV.style.backgroundColor="#64DE57";
+			score++;
+		} else { 
+			document.getElementById("div" + i).style.backgroundColor="#FA323C";
+		}
+	}
+	alert( number + " Sorudan " + score + " Tanesini Doğru Cevapladınız" + ".");
+ }
+</script>
+
+<STYLE>
+/*Drag And Drop*/
+.draganddropKeywords {padding:20px;border:2px solid #8C0099; text-align: center;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+-moz-box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+background-color: #E6D1E8;
+min-height: 40px;
+width: 280px;
+}
+.draganddropText {padding:10px;border:2px solid #8C0099; font-family: arial;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+-moz-box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+background-color: #E6D1E8;
+width: 700px;
+}
+
+.dropElement {min-width:126px; height: 30px; margin: 2px; padding:2px; border:1px solid #aaaaaa; text-align: center; display: inline-block; vertical-align: middle;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+background-color: #FFFFFF;
+float: none !important;
+}
+
+.dragElement { display: inline-block; padding:6px 0 6px 0px; margin: 2px; background: #bd79b3; min-width: 120px; cursor: pointer; cursor: hand; font-family: arial; font-weight: bold; font-style: italic;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+
+}
+
+#draganddropButton {padding:10px;border:2px solid #8C0099; text-align: center;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+-moz-box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+box-shadow: 4px 4px 3px 0px rgba(176,176,176,1);
+background-color: #8C0099;
+background-image: none;
+text-shadow: none;
+color: #ffffff;
+min-height: 40px;
+margin: 10px;
+}
+
+#draganddropButton:hover{
+background-color: #E6D1E8;
+color: #8C0099;
+cursor: pointer;
+cursor: hand;
+}
+
+BODY {
+font-family: arial;
+background: #F1F1F1;
+}
+</STYLE>
+</HEAD>
+<BODY>
+<TABLE width=100% cellpadding=5>
+<TR><TD width=650 valign=top>
+<center>
+
+<br><Br>
+Yandaki Cümlelerin Neyi Tanımladığını Bulup Doğru Eşleştirmeleri Yapınız: 
+<br><Br>
+<div id="div0" class="draganddropKeywords" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div class="dragElement" id="drag3" draggable="true" ondragstart="drag(event)">iyi</div>
+<div class="dragElement" id="drag5" draggable="true" ondragstart="drag(event)">normatif</div>
+<div class="dragElement" id="drag1" draggable="true" ondragstart="drag(event)">Ahlak :</div>
+<div class="dragElement" id="drag4" draggable="true" ondragstart="drag(event)">kötü</div>
+<div class="dragElement" id="drag7" draggable="true" ondragstart="drag(event)">Ahlak</div>
+<div class="dragElement" id="drag9" draggable="true" ondragstart="drag(event)"> Sorumluluk :</div>
+<div class="dragElement" id="drag2" draggable="true" ondragstart="drag(event)">Özgürlük : </div>
+<div class="dragElement" id="drag6" draggable="true" ondragstart="drag(event)"> Ahlak :</div>
+<div class="dragElement" id="drag12" draggable="true" ondragstart="drag(event)"> Ödev :</div>
+<div class="dragElement" id="drag13" draggable="true" ondragstart="drag(event)"> Ahlak Yasası :</div>
+<div class="dragElement" id="drag8" draggable="true" ondragstart="drag(event)">Ahlak Felsefesi:</div>
+<div class="dragElement" id="drag10" draggable="true" ondragstart="drag(event)">Ahlaki Eylem:</div>
+<div class="dragElement" id="drag11" draggable="true" ondragstart="drag(event)"> Vicdan :</div>
+</div>
+<center><input type="button" id="draganddropButton" value="Cevapları Kontrol Et" onClick="checkMyAnswers(13);"></center>
+</center>
+</TD><TD valign=top>
+
+<small>
+
+<div class="draganddropText"    >
+1- <span id="div1" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>İnsanın davranışlarını, karakter yapısını ve bununla ilgili değerlendirmeleri düzenleyen kurallar bütünü olarak tanımlanabilir. 
+2- <span id="div2" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>İnsanın kendi seçimleriyle davranabilmesidir. Diğer bir deyişle, insanın eylemlerini seçerken iradesini serbestçe  kullanabilmesidir. <br>     
+
+3- Ahlaki anlamda insanın yapması gereken ve değerli olan davranışlar 
+<span id="div3" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span> , yapmaması gereken ve değersiz olan davranışlar ise 
+<span id="div4" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>dür.
+ 
+4- Düzenleyici yönüyle ahlak
+<span id="div5" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>bir özellik gösterir.  
+5- <span id="div6" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>Toplumsal yaşamda insan eylemlerini düzenleyen ve bu eylemlerde iyi-kötü ayrımı yapan, genel kabul görmüş kurallar bütününe denir. 
+6- <span id="div7" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>ın bir başka özelliği bireyin bilinçli davranışları ile ilgili olmasıdır.  
+7- <span id="div8" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span> İnsanın ahlaki eylemlerini ve bu eylemlerin dayandığı ilkeleri konu alan felsefe dalına  denir.
+ 
+8- <span id="div9" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>insanın eylemlerinin sonuçlarını baştan üstlenebilmesine denir.
+9- <span id="div11" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>İnsanda iyi ve kötüyü ayırt edebilmeyi sağlayan bir iç yeti veya iç duyuş biçiminde tanımlanabilir.
+ 
+10- <span id="div12" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>Yapmak zorunda olduğumuz, yapmamız gereken, ahlakça yükümlü olduğumuz şeyleri dile getirir. Alman filozof Kant’a göre eylemlerimizin belirleyicisi olan bir duygudur. <br>
+11- <span id="div13" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span> Ahlaki eylemleri belirleyen herkes için geçerli olması gerekli olan kurallara denir. <br>
+12- <span id="div10" class="dropElement" ondrop="drop(event)" ondragover="allowDrop(event)"></span>Ahlaki açıdan iyi ya da kötü olarak değerlendirilebilen eylemlerimize denir.
+
+
+</small>
+</div>
+</small>
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
