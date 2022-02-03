@@ -209,7 +209,7 @@ let questions = [
 	    choiceD : "Aristoteles'e",
 	    correct : "B"
     } ,    {
-        question : "25. 'Her şeyin ifrat(aşırı fazlası) ve tefriti(normalden azı) iyi değildir.'  görüşünü benimseyen  ''Gâlibî'' lerin bu Erdem ilkesi aşağıdaki filozofların ve akımların hangisiyle örtüşmektedir?",
+        question : "25. 'Her şeyin ifrat(aşırı fazlası) ve tefriti(normalden azı) iyi değildir.'  görüşünü benimseyen  'Gâlibî'lerin bu Erdem ilkesi aşağıdaki filozofların ve akımların hangisiyle örtüşmektedir?",
         imgSrc : "img/idea.png",
         choiceA : "Epikürizim ",
         choiceB : "Stoacı görüş",
