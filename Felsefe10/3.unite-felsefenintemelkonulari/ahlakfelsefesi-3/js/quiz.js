@@ -141,9 +141,9 @@ let questions = [
         imgSrc : "img/idea.png",
         choiceA : "Ödev",
         choiceB : "Özgürlük",
-        choiceC : "Vicadan",
+        choiceC : "Vicdan",
 	    choiceD : "Sorumluluk",
-	    correct : "B"
+	    correct : "A"
     }  ,    {
         question : "17. ....... ,Yunanca “arete” sözcüğüne dayanır, insanın iyi davranışlara yönelmeyi seçmesine  denir.",
         imgSrc : "img/idea.png",
@@ -173,7 +173,7 @@ let questions = [
         imgSrc : "img/idea.png",
         choiceA : "Epikürizm",
         choiceB : "Özgürlük",
-        choiceC : "Vicadan",
+        choiceC : "Vicdan",
 	    choiceD : "Stoacı",
 	    correct : "D"
     } ,    {
@@ -181,7 +181,7 @@ let questions = [
         imgSrc : "img/idea.png",
         choiceA : "Epikürizm",
         choiceB : "Özgürlük",
-        choiceC : "Vicadan",
+        choiceC : "Vicdan",
 	    choiceD : "Stoacı",
 	    correct : "A"
     } ,    {
@@ -209,7 +209,7 @@ let questions = [
 	    choiceD : "Aristoteles'e",
 	    correct : "B"
     } ,    {
-        question : "25. 'Her şeyin ifrat(aşırı fazlası) ve tefriti(normalden azı) iyi değildir.'  görüşünü benimseyen  'Gâlibî'lerin bu Erdem ilkesi aşağıdaki filozofların ve akımların hangisiyle örtüşmektedir?",
+        question : "25. 'Her şeyin ifrat(aşırı fazlası) ve tefriti(normalden azı) iyi değildir.'  görüşünü benimseyen  'Gâlibî'lerin bu Erdem ilkesi aşağıdaki filozofların veya akımların hangisiyle örtüşmektedir?",
         imgSrc : "img/idea.png",
         choiceA : "Epikürizim ",
         choiceB : "Stoacı görüş",
