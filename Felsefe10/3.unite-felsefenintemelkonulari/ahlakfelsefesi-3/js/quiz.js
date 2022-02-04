@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1.	'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, insanın özgürce eylemde bulunamayacağını, insanın kendi elinde olmayan koşulların etkisi altında eylemde bulunduğunu kabul eden akıma ...... denir.",
-        imgSrc : "img/refleksif.png",
+        imgSrc : "img/etikozgurluk1.png",
         choiceA : "fatalizim",
         choiceB : "indeterminizim",
         choiceC : "otodeterminizim",
@@ -25,7 +25,7 @@ let questions = [
 	    correct : "D"
     }, {
         question : "2. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ...... akımına göre insanın iradesi, eylemleri içten ve dıştan gelen nedenlerle belirlenmiştir. İnsan eylemlerinde özgür değildir ve yaptık larından sorumlu tutulamaz.",
-        imgSrc : "img/pisagor.png",
+         imgSrc : "img/etikozgurluk1.png",
         choiceA : "determinizim",
         choiceB : "otodeterminizim",
         choiceC : "fatalizim",
@@ -33,7 +33,7 @@ let questions = [
 	    correct : "A"
     },	{
         question : "3. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan .....	göre kişi, eylemlerinde tümüyle özgürdür. Onu davranışa yön lendiren herhangi bir neden bulunma maktadır. İnsan yaptıklarından sorumludur, davranışlarının sonucunu üstlenmelidir.  ",
-        imgSrc : "img/rasyonellik.png",
+         imgSrc : "img/etikozgurluk1.png",
         choiceA : "determinizim",
         choiceB : "otodeterminizim",
         choiceC : "fatalizim",
@@ -42,7 +42,7 @@ let questions = [
 		
     },    {
         question : "4. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ahlaksal özerklik adı da verilen ..... e göre kişinin iyi ve kötü konusunda kendi ahlaki değerlerini oluşturabilme ve bu değerlere ulaşabilme özgürlüğü olduğunu savunur ",
-        imgSrc : "img/yigilimli.png",
+         imgSrc : "img/etikozgurluk1.png",
         choiceA : "determinizim",
         choiceB : "otodeterminizim",
         choiceC : "fatalizim",
@@ -50,7 +50,7 @@ let questions = [
 	    correct : "B"
     } ,    {
         question : "5. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ..... e göre   insanın mutlak anlamda özgür olmamakla birlikte bazı seçimlerde bulunduğunu, insanın kaderinin ve bazı kararlarının kendisine bağlı olduğunu öne süren bir orta yol özgürlük düşüncesidir.",
-        imgSrc : "img/mitoloji.png",
+         imgSrc : "img/etikozgurluk1.png",
         choiceA : "determinizim",
         choiceB : "fatalizim",
         choiceC : "otodeterminizim",
@@ -58,7 +58,7 @@ let questions = [
 	    correct : "C"
     } ,    {
         question : "6. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ..... e göre göre insan rüzgâr önünde savrulan kuru bir yaprak gibi kaderin elinde bir oyuncaktır. İnsan senaryosu daha önceden yazılmış bir sahnede figürandır.",
-        imgSrc : "img/elestiri.png",
+        imgSrc : "img/etikozgurluk1.png",
         choiceA : "liberteryanizm",
         choiceB : "fatalizim",
         choiceC : "otodeterminizim",
@@ -66,7 +66,7 @@ let questions = [
 	    correct : "B"
     } ,    {
         question : "7. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ..... e göre tüm olaylar yaratıcı bir güç tarafından önceden belirlenmiştir. Bu belirlenmiş durumu değiştirilemez. Kişi özgür olmadığından davranışları nedeniyle sorumlu tutulamaz.",
-        imgSrc : "img/hikmet.png",
+         imgSrc : "img/etikozgurluk1.png",
         choiceA : "fatalizim",
         choiceB : "liberteryanizm",
         choiceC : "indeterminizim",
@@ -74,7 +74,7 @@ let questions = [
 	    correct : "A"
     } ,    {
         question : "8. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ..... e göre ..... bireysel özerkliği savunur. İnsan kendi seçimlerini yapar. Özgürlük her insanın doğuştan sahip olduğu bir haktır. ",
-        imgSrc : "img/kuresel.png",
+        imgSrc : "img/etikozgurluk1.png",
         choiceA : "fatalizim, fatalizim",
         choiceB : "liberteryanizm, liberteryanizm",
         choiceC : "indeterminizim, indeterminizim",
@@ -82,7 +82,7 @@ let questions = [
 	    correct : "B"
     } ,    {
         question : "9. 'İnsan özgürce eylemde bulunurken özgürmüdür?' sorusuna, verilen cevap lardan ..... e göre 	insan eylemleri tamamen ya da kısmen de olsa açıklanamaz. Bu eylemleri belirleyen kurallar olmadığından insan özgürdür.",
-        imgSrc : "img/tales.png",
+         imgSrc : "img/etikozgurluk1.png",
         choiceA : "liberteryanizm",
         choiceB : "determinizim",
         choiceC : "indeterminizim",
