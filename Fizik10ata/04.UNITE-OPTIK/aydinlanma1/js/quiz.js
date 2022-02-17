@@ -331,10 +331,18 @@ function scoreRender(){
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score/questions.length);
-    	if (scorePerCent < 71 ) {
+    	if (scorePerCent < 85 ) {
 		   var audio = new Audio('img/basaramadim-.mp3');
 		   audio.play();
 	     } 
+		 
+		 		 if (scorePerCent > 85 ) {
+		   var audio = new Audio('img/Rasputin .mp3');
+		   audio.play();
+	     } 
+		 
+		 
+		 
     // choose the image based on the scorePerCent
     let img = (scorePerCent >= 80) ? "img/5.png" :
               (scorePerCent >= 60) ? "img/4.png" :
