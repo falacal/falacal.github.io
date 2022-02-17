@@ -327,8 +327,8 @@ function scoreRender(){
 		   audio.play();
 	     }
 		 
-		 if (scorePerCent > 90 ) {
-		   var audio = new Audio('img/Rasputin .mp3');
+		 if (scorePerCent > 85 ) {
+		   var audio = new Audio('img/Rasputin.mp3');
 		   audio.play();
 	     } 
 		 
