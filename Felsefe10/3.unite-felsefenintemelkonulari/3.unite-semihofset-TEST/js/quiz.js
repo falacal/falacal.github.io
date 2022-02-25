@@ -154,7 +154,8 @@ let questions = [
 	    correct : "B"
     } , 	{
         question : "18.	Varlığın idea, kavram ya da düşünce cinsinden olduğunu savunan .......'e göre her varlık düşünerek anlamdırılabilen, değişime kapalı idealardan ve duyusal bir varlığa bağlı idealardan yararlanarak var olan fenomenlerden oluşur. Fenomenler gerçekliğin birer kopyasıdır.",
-        choiceA : "Platon",
+        imgSrc : "img/dusunme2.png",
+		choiceA : "Platon",
         choiceB : "Aristoteles",
         choiceC : "Sokrates",
 	    choiceD : "Herakleitos",

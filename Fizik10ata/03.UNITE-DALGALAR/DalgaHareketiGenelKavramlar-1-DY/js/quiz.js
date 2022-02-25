@@ -210,10 +210,77 @@ let questions = [
         choiceB : "boyuna dalga",
 
 		correct : "B"
+    } , 
+ 	    {
+        question : "23.  Dalga üzerindeki noktaların hareket yönüne o noktaların ......... denir.",
+        
+        imgSrc : "img/eninetitresim1.png",
+        choiceA : "titreşim yönü ",
+        choiceB : "uçuş yönü",
+
+		correct : "A"
+    } , {
+        question : "24.  Kısa süreli dalga hareketine  ......... denir.",
+        
+        imgSrc : "img/atma2.png",
+        choiceA : "periyodik dalga",
+        choiceB : "atma",
+
+		correct : "B"
+    } ,
+ 	    {
+        question : "25.  K atmasının hareket yönü için aşağıdakilerden hangisi doğrudur?",
+        
+        imgSrc : "img/atmasol1.png",
+        choiceA : "<img src='img/sol1.png'>" ,
+        choiceB : "<img src='img/sag1.png'>" ,
+		correct : "A"
+    } ,
+ 	    {
+        question : "26.  L atmasının hareket yönü için aşağıdakilerden hangisi doğrudur?",
+        
+        imgSrc : "img/atmasag1.png",
+        choiceA : "<img src='img/sol1.png'>" ,
+        choiceB : "<img src='img/sag1.png'>" ,
+		correct : "B"
+    } ,
+ 	    {
+        question : "27.  M atmasının hareket yönü için aşağıdakilerden hangisi doğrudur?",
+        
+        imgSrc : "img/atmasol2.png",
+        choiceA : "<img src='img/sol1.png'>" ,
+        choiceB : "<img src='img/sag1.png'>" ,
+		correct : "A"
+    } ,
+ 	    {
+        question : "28.  N atmasının hareket yönü için aşağıdakilerden hangisi doğrudur?",
+        
+        imgSrc : "img/atmasag2.png",
+        choiceA : "<img src='img/sol1.png'>" ,
+        choiceB : "<img src='img/sag1.png'>" ,
+		correct : "B"
+    } ,
+ 	    {
+        question : "29.  K atmasının hareket yönü için aşağıdakilerden hangisi doğrudur?",
+        
+        imgSrc : "img/katmasol2.png",
+        choiceA : "<img src='img/sol1.png'>" ,
+        choiceB : "<img src='img/sag1.png'>" ,
+		correct : "A"
+    } ,
+ 	    {
+        question : "30. Şekildeki yay dalgası üzerindeki Y, Z noktalarının titreşim yönü için aşağıdakilerden hangisi doğrudur?",
+        
+        imgSrc : "img/yzatmatitresim2.png",
+        choiceA : "<img src='img/altustok.png'>" ,
+        choiceB : "<img src='img/ustustok.png'>" ,
+		correct : "B"
     } 
  
+ 
 	
-
+ 
+	
 
 
 	
