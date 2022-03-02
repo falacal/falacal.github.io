@@ -275,8 +275,26 @@ let questions = [
         choiceA : "<img src='img/altustok.png'>" ,
         choiceB : "<img src='img/ustustok.png'>" ,
 		correct : "B"
+    }  ,
+ 	    {
+        question : "31. Türdeş	bir	yayda	oluşturulan	atma	sabit	uca	doğru	şekildeki gibi	ilerlemektedir. Buna göre, atmanın yansıdıktan sonraki görünümü nasıl olur?",
+        
+        imgSrc : "img/yansima1.png",
+        choiceA : "<img src='img/yansima2asaga.png'>" ,
+        choiceB : "<img src='img/yansima1saga.png'>" ,
+		correct : "B"
+    } ,
+ 	    {
+        question : "32. Türdeş	bir	yayda	oluşturulan	atma	serbest	uca	doğru	şekildeki gibi	ilerlemektedir. Buna göre, atmanın yansıdıktan sonraki görünümü nasıl olur?",
+        
+        imgSrc : "img/yansima2.png",
+        choiceA : "<img src='img/yansima2asaga.png'>" ,
+        choiceB : "<img src='img/yansima2bsaga.png'>" ,
+		correct : "A"
     } 
  
+ 
+	
  
 	
  
