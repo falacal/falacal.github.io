@@ -105,8 +105,30 @@ let questions = [
         choiceC : "Ahlaksal Determinizm",
 	    choiceD : "Ödev Etiği",
 	    correct : "D"
+    } , {
+        question : "12. insan eylemlerinin son ereği olarak mutluluğu gören anlayışlara genel olarak ......... denir.",
+        imgSrc : "img/etik1.png",
+        choiceA : "Entüisyonizm (Sezgicilik) ",
+        choiceB : "Eudaimonizm (öydaymonizm)",
+        choiceC : "Ahlaksal Determinizm",
+	    choiceD : "Ödev Etiği",
+	    correct : "B"
     } 
-// 11 tane	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+// 12 tane	
 	
 ];
 
