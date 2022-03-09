@@ -60,7 +60,7 @@ let questions = [
     } ,     {
         question : "6. İnce ipten kalın ipe doğru gelen atma için, <sup>a</sup>g gelen atmanın genliği,  <sup>a</sup>y yansıyan atmanın genliği,  <sup>a</sup>i iletilen atmanın genliği olup, bu genlikler için aşağıdaki ifadelerden hangisi doğrudur?  ",
         imgSrc : "img/soru6.png",
-        choiceA : "<sup>a</sup>g <sup>></sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>y<sup>  " ,
+        choiceA : "<sup>a</sup>g <sup>></sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>i<sup>  " ,
         choiceB : "<sup>a</sup>g <sup>=</sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>i" ,
         choiceC : "<sup>a</sup>g <sup>=</sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>i <sup>></sup> <sup>a</sup>g" ,
         choiceD : "<sup>a</sup>g <sup>></sup> <sup>a</sup>y  <sup>></sup> </sup> <sup>a</sup>i" ,
@@ -116,7 +116,48 @@ let questions = [
         choiceD : '<font size="50">↓         ↑</font>' ,
 		correct : "D"
     }
+	 ,
+	{
+        question : " 13. Türdeş bir yayda oluşturulan iki atma birbirine doğru	hareket	ediyor. <b>Atmalar üst üste bindiğinde oluşan bileşke atma nasıl olur?</b>",
+        imgSrc : "img/soru13.png",
+        choiceA : "<img src='img/soru13b.png'>" ,
+        choiceB : "<img src='img/soru13c.png'>" ,
+        choiceC : "<img src='img/soru13a.png'>" ,
+        choiceD : "<img src='img/soru13d.png'>" ,
+		correct : "C"
+    }
+	 ,
+	{
+        question : " 14. Türdeş bir yayda oluşturulan iki atma birbirine doğru	hareket	ediyor. <b>Atmalar üst üste bindiğinde oluşan bileşke atma nasıl olur?</b>",
+        imgSrc : "img/soru14.png",
+        choiceA : "<img src='img/soru14a.png'>" ,
+        choiceB : "<img src='img/soru14c.png'>" ,
+        choiceC : "<img src='img/soru14b.png'>" ,
+        choiceD : "<img src='img/soru14d.png'>" ,
+		correct : "B"
+    },
+	{
+        question : " 15. Bir kaynağın oluşturduğu periyodik dalgaların konum-zaman grafiği şekildeki gibidir. Bu dalganın periyodu kaç saniyedir? ",
+        imgSrc : "img/soru15.png",
+        choiceA : "1" ,
+        choiceB : "2" ,
+        choiceC : "3" ,
+        choiceD : "4" ,
+		correct : "B"
+    },
+	{
+        question : " 16. Bir kaynağın oluşturduğu periyodik dalgaların konum-zaman grafiği şekildeki gibidir. Bu dalganın genliği kaç santimetredir?",
+        imgSrc : "img/soru15.png",
+        choiceA : "1" ,
+        choiceB : "2" ,
+        choiceC : "3" ,
+        choiceD : "4" ,
+		correct : "D"
+    }
 	 
+	 
+	 
+ 
  
 	 
  
