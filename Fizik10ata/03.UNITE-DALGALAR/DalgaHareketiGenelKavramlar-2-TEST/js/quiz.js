@@ -16,7 +16,17 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "1. Şekildeki dalga serbest uçtan yansıdıktan sonra aşağıdakilerden hangisi gibi olur?",
+        question : "1. O noktası gelen atma	için ...... gibi davranır.",
+        imgSrc : "img/soru3.png",
+        choiceA : "serbest uç" ,
+        choiceB : "gevşek uç " ,
+        choiceC : "sabit uç" ,
+        choiceD : "sıkı uç" ,
+		correct : "C"
+    }	 ,    
+
+    {
+        question : "2. Şekildeki dalga serbest uçtan yansıdıktan sonra aşağıdakilerden hangisi gibi olur?",
         imgSrc : "img/soru1.png",
         choiceA : "<img src='img/soru1a.png'>" ,
         choiceB : "<img src='img/soru1b.png'>" ,
@@ -24,23 +34,15 @@ let questions = [
         choiceD : "<img src='img/soru1d.png'>" ,
 		correct : "D"
     },     {
-        question : "2. Şekildeki dalga sabit uçtan yansıdıktan sonra aşağıdakilerden hangisi gibi olur?  ",
+        question : "3. Şekildeki dalga sabit uçtan yansıdıktan sonra aşağıdakilerden hangisi gibi olur?  ",
         imgSrc : "img/soru2.png",
         choiceA : "<img src='img/soru2a.png'>" ,
         choiceB : "<img src='img/soru2b.png'>" ,
         choiceC : "<img src='img/soru2c.png'>" ,
         choiceD : "<img src='img/soru2d.png'>" ,
 		correct : "B"
-    }
-	 ,     {
-        question : "3. O noktası gelen atma	için ...... gibi davranır.",
-        imgSrc : "img/soru3.png",
-        choiceA : "serbest uç" ,
-        choiceB : "gevşek uç " ,
-        choiceC : "sabit uç" ,
-        choiceD : "sıkı uç" ,
-		correct : "C"
-    }	 ,     {
+    } , 
+	{
         question : "4. İnce ipten kalın ipe doğru gelen atma için, <sup>V</sup>g gelen atmanın hızı,  <sup>V</sup>y yansıyan atmanın hızı,  <sup>V</sup>i iletilen atmanın hızı olup, bu hızlar için aşağıdaki ifadelerden hangisi doğrudur? ",
         imgSrc : "img/soru4.png",
         choiceA : "<sup>V</sup>g <sup>=</sup> <sup>V</sup>y<sup> > </sup> <sup>V</sup>i" ,
