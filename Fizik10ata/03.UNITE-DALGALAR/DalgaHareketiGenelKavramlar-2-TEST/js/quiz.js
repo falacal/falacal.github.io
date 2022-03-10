@@ -98,7 +98,7 @@ let questions = [
         choiceA : "<sup>a</sup>g <sup>></sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>y<sup>  " ,
         choiceB : "<sup>a</sup>g <sup>=</sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>i" ,
         choiceC : "<sup>a</sup>g <sup>=</sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>i <sup>></sup> <sup>a</sup>g" ,
-        choiceD : "<sup>a</sup>i <sup>></sup> <sup>a</sup>g  <sup>></sup> </sup> <sup>a</sup>i" ,
+        choiceD : "<sup>a</sup>i <sup>></sup> <sup>a</sup>g  <sup>></sup> </sup> <sup>a</sup>y" ,
 		correct : "D"
     }  ,     {
         question : "11. Atmaların karşılaştıkları anda oluşturdukları atmaya .......... denir.",
