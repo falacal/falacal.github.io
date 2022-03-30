@@ -52,7 +52,7 @@ let questions = [
 		correct : "A"
     } 
 	 ,     {
-        question : "5. İnce ipten kalın ipe doğru gelen atma için, <sup>X</sup>g gelen atmanın genişliği,  <sup>X</sup>y yansıyan atmanın genişliği,  <sup>X</sup>i iletilen atmanın genişliği olup, bu genişlikler için aşağıdaki ifadelerden hangisi doğrudur?  ",
+        question : "5.İnce ipten kalın ipe doğru gelen atma için, <sup>X</sup>g gelen atmanın genişliği,  <sup>X</sup>y yansıyan atmanın genişliği,  <sup>X</sup>i iletilen atmanın genişliği olup, genişlikler için aşağıdakilerden hangisi doğrudur?",
         imgSrc : "img/soru5.png",
         choiceA : "<sup>X</sup>g <sup>></sup> <sup>X</sup>y<sup>  > </sup> <sup>X</sup>i " ,
         choiceB : "<sup>X</sup>g <sup>=</sup> <sup>X</sup>y<sup> < </sup> <sup>X</sup>i" ,
@@ -60,7 +60,7 @@ let questions = [
         choiceD : "<sup>X</sup>g <sup>></sup> <sup>X</sup>y<sup>  = </sup> <sup>X</sup>i" ,
 		correct : "C"
     } ,     {
-        question : "6. İnce ipten kalın ipe doğru gelen atma için, <sup>a</sup>g gelen atmanın genliği,  <sup>a</sup>y yansıyan atmanın genliği,  <sup>a</sup>i iletilen atmanın genliği olup, bu genlikler için aşağıdaki ifadelerden hangisi doğrudur?  ",
+        question : "6. İnce ipten kalın ipe doğru gelen atma için, <sup>a</sup>g gelen atmanın genliği,  <sup>a</sup>y yansıyan atmanın genliği,  <sup>a</sup>i iletilen atmanın genliği olup, genlikler için aşağıdakilerden hangisi doğrudur?",
         imgSrc : "img/soru6.png",
         choiceA : "<sup>a</sup>g <sup>></sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>i<sup>  " ,
         choiceB : "<sup>a</sup>g <sup>=</sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>i" ,
@@ -85,7 +85,7 @@ let questions = [
         choiceD : "<sup>V</sup>g <sup>></sup> <sup>V</sup>y<sup>  = </sup> <sup>V</sup>i" ,
 		correct : "B"
     } ,     {
-        question : "9. Kalın ipten ince ipe doğru gelen atma için, <sup>X</sup>g gelen atmanın genişliği,  <sup>X</sup>y yansıyan atmanın genişliği,  <sup>X</sup>i iletilen atmanın genişliği olup, bu genişlikler için aşağıdaki ifadelerden hangisi doğrudur?  ",
+        question : "9. Kalın ipten ince ipe doğru gelen atma için, <sup>X</sup>g gelen atmanın genişliği,  <sup>X</sup>y yansıyan atmanın genişliği,  <sup>X</sup>i iletilen atmanın genişliği olup, genişlikler için aşağıdakilerden hangisi doğrudur?",
         imgSrc : "img/soru7.png",
         choiceA : "<sup>X</sup>g <sup>></sup> <sup>X</sup>y<sup>  > </sup> <sup>X</sup>i " ,
         choiceB : "<sup>X</sup>g <sup>=</sup> <sup>X</sup>y<sup> < </sup> <sup>X</sup>i" ,
@@ -93,7 +93,7 @@ let questions = [
         choiceD : "<sup>X</sup>g <sup>></sup> <sup>X</sup>y<sup>  = </sup> <sup>X</sup>i" ,
 		correct : "B"
     }  ,     {
-        question : "10. Kalın ipten ince ipe doğru gelen atma için, <sup>a</sup>g gelen atmanın genliği,  <sup>a</sup>y yansıyan atmanın genliği,  <sup>a</sup>i iletilen atmanın genliği olup, bu genlikler için aşağıdaki ifadelerden hangisi doğrudur?  ",
+        question : "10. Kalın ipten ince ipe doğru gelen atma için, <sup>a</sup>g gelen atmanın genliği,  <sup>a</sup>y yansıyan atmanın genliği,  <sup>a</sup>i iletilen atmanın genliği olup, genlikler için aşağıdakilerden hangisi doğrudur?",
         imgSrc : "img/soru7.png",
         choiceA : "<sup>a</sup>g <sup>></sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>y<sup>  " ,
         choiceB : "<sup>a</sup>g <sup>=</sup> <sup>a</sup>y  <sup>ve</sup> <sup>a</sup>g <sup>></sup> <sup>a</sup>i" ,
@@ -137,9 +137,28 @@ let questions = [
         choiceC : "<img src='img/soru14b.png'>" ,
         choiceD : "<img src='img/soru14d.png'>" ,
 		correct : "B"
-    },
+    }, 
 	{
-        question : " 15. Bir kaynağın oluşturduğu periyodik dalgaların konum-zaman grafiği şekildeki gibidir. Bu dalganın periyodu kaç saniyedir? ",
+        question : " 15. Türdeş bir yayda oluşturulan iki atma birbirine doğru	hareket	ediyor. <b>Atmalar üst üste bindiğinde oluşan bileşke atma nasıl olur?</b>",
+        imgSrc : "img/soru14-1-15.png",
+        choiceA : "<img src='img/soru14-1-15-a.png'>" ,
+        choiceB : "<img src='img/soru14-1-15-b.png'>" ,
+        choiceC : "<img src='img/soru14b.png'>" ,
+        choiceD : "<img src='img/soru14d.png'>" ,
+		correct : "A"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+        question : " 16. Bir kaynağın oluşturduğu periyodik dalgaların konum-zaman grafiği şekildeki gibidir. Bu dalganın periyodu kaç saniyedir? ",
         imgSrc : "img/soru15.png",
         choiceA : "1" ,
         choiceB : "2" ,
@@ -148,13 +167,52 @@ let questions = [
 		correct : "B"
     },
 	{
-        question : " 16. Bir kaynağın oluşturduğu periyodik dalgaların konum-zaman grafiği şekildeki gibidir. Bu dalganın genliği kaç santimetredir?",
+        question : " 17. Bir kaynağın oluşturduğu periyodik dalgaların konum-zaman grafiği şekildeki gibidir. Bu dalganın genliği kaç santimetredir?",
         imgSrc : "img/soru15.png",
         choiceA : "1" ,
         choiceB : "2" ,
         choiceC : "3" ,
         choiceD : "4" ,
 		correct : "D"
+    }
+	 ,
+	{
+        question : " 18. Şekildeki yay dalgası üzerindeki X, Y , Z noktalarının titreşim yönleri için aşağıdakilerden hangisi doğrusur? Not: Tabloyu ok işaretleriyle doldurunuz. ( ← ↑ → ↓ ↖ ↗ ↘ ↙ ) ",
+        imgSrc : "img/soru18-1-.png",
+        choiceA : "↑ ↓ ↑" ,
+        choiceB : "↑ ↑ ↓" ,
+        choiceC : "↑ ↓ ↓" ,
+        choiceD : "↑ ↑ ↑" ,
+		correct : "C"
+    },
+	{
+        question : " 19. Şekildeki yay dalgası üzerindeki Y, Z , M noktalarının titreşim yönleri için aşağıdakilerden hangisi doğrusur? Not: Tabloyu ok işaretleriyle doldurunuz. ( ← ↑ → ↓ ↖ ↗ ↘ ↙ ) ",
+        imgSrc : "img/soru19-1-.png",
+        choiceA : "↑ ↓ ↑" ,
+        choiceB : "↓ ↑ ↓" ,
+        choiceC : "↑ ↓ ↓" ,
+        choiceD : "↑ ↑ ↓" ,
+		correct : "D"
+    }
+	 ,
+	{
+        question : " 20. Sabit derinlikli ortamdaki su dalgaları için; I. Frekansı zamanla azalmıştır. II. Dalga boyu zamanla artmıştır. III. Dalganın hızı zamanla artmıştır. Yargılarından hangileri kesinlikle doğrudur?",
+        imgSrc : "img/soru20-1-.png",
+        choiceA : "I doğru, II ve III yanlıştır." ,
+        choiceB : "I ve II doğru, III yanlıştır." ,
+        choiceC : "II doğru, I ve III yanlıştır." ,
+        choiceD : "III doğru, I ve II yanlıştır." ,
+		correct : "B"
+    }
+	 ,
+	{
+        question : " 21. Şekildeki Doğrusal dalgalar için; I. Kaynağın titreşim frekansı azalmaktadır. II. Kaynaktan uzaklaş<br> tıkça, suyun derinliği artmaktadır. III. Dalgaların dalgaboyu artmak<br> tadır. Yargılarından hangileri kesinlikle doğrudur?",
+        imgSrc : "img/soru21-1-.png",
+        choiceA : "I doğru, II ve III yanlıştır." ,
+        choiceB : "I ve II doğru, III yanlıştır." ,
+        choiceC : "II doğru, I ve III yanlıştır." ,
+        choiceD : "III doğru, I ve II yanlıştır." ,
+		correct : "C"
     }
 	 
 	 
