@@ -151,7 +151,7 @@ let questions = [
         choiceB : "düşünce",
         choiceC : "özgünlük",
 	    choiceD : "akıl yürütme",
-	    correct : "D"
+	    correct : "C"
     } ,	{
         question : "17.	 Metin çözümlenirken öncelikle metinde geçen problemin; felsefenin varlık, ........ ve ........ alanlarından hangisiyle ilişkili olduğu belirlenir.",
         imgSrc : "img/dusunme2.png",
