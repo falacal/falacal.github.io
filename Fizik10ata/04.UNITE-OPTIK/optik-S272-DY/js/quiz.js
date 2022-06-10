@@ -98,7 +98,7 @@ let questions = [
         choiceA : "Doğru",
         choiceB : "Yanlış",
  
-	    correct : "A"
+	    correct : "B"
     }, {
         question : "13. ışığı toplayan mercekler yakınsak, dağıtanlar ise ıraksak mercek olarak adlandırılır.",
         imgSrc : "img/iraksak1-300.gif",
