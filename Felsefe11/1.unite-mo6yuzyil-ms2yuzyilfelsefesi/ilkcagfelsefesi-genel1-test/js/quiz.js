@@ -80,7 +80,7 @@ let questions = [
         choiceB : "atom ",
         choiceC : "ateş ",
 	    choiceD : "bir ",
-	    correct : " A"
+	    correct : "A"
     } ,    {
         question : "9. Demokritos'a göre arkhe (varlığın ana maddesi) nedir? ",
         imgSrc : "img/tales.png",
@@ -192,7 +192,7 @@ let questions = [
         choiceB : "Thales ",
         choiceC : "Heraklitos ",
 	    choiceD : "Anaksimenes ",
-	    correct : " "
+	    correct : "B"
     } ,    {
         question : '23. "Aynı ırmakta iki kez yıkananılmaz " sözü kime aittir ? ',
         imgSrc : "img/idea.png",
