@@ -234,36 +234,36 @@ let questions = [
 	    choiceD : "Liberaller",
 	    correct : "B"
     } ,    {
-        question : "28. Alçının vazoya dönüşmesini sağlayan sanatçının nedeni hangisidir? ",
+        question : "28. Bugün Adıyaman ili sınırlarında kalan bölgede doğmuştur,Süryani kökenlidir, Nüktesi ve alaycı doğası ile tanınır.Aya yaρılan bir yolculuğu anlattığı 'Gerçek Bir Hikaye' adlı eseri, dünyadaki ilk bilim kurgu eseri kabul edilir? ",
         imgSrc : "img/idea.png",
-        choiceA : "formel ",
-        choiceB : "fail ",
-        choiceC : "maddi ",
-	    choiceD : "ereksel ",
-	    correct : "B"
-    } ,    {
-        question : "29. Platon'un mağara benzetmesindeki mahkumlar günümüz sinemasında neyi temsil etmektedir?",
-        imgSrc : "img/idea.png",
-        choiceA : "izleyiciler ",
-        choiceB : "projeksiyon ",
-        choiceC : "film ",
-	    choiceD : "koltuklar ",
-	    correct : "A"
-    } ,    {
-        question : "30. Platonun sanat anlayışı nasıldır ?",
-        imgSrc : "img/idea.png",
-        choiceA : "fenomenlerdir ",
-        choiceB : "yansımadır ",
-        choiceC : "yansımanın yansımasıdır ",
-	    choiceD : "ideadır ",
+        choiceA : "Platon ",
+        choiceB : "Aristo ",
+        choiceC : "Lukianos ",
+	    choiceD : "Sokrat ",
 	    correct : "C"
     } ,    {
-        question : '31. "Nikomakhos Etik " adlı eserinde ahlak görüşlerini anlatan filozof kimdir?',
+        question : "29. Bir fıçıda yaşayan ve dünya nimetlerine önem vermeyen felsefesiyle ünlü sinop doğumlu bir filozoftur. Kendine yetme ile sadelik ilkelerine dayanan Kinik yaşam biçiminin öncülerinden olan bir filozoftur. ?",
+        imgSrc : "img/diyojen.png",
+        choiceA : "Platon ",
+        choiceB : "Aristo ",
+        choiceC : "Lukianos ",
+	    choiceD : "Diogenes",
+	    correct : "D"
+    } ,    {
+        question : "30. Milattan sonra 55 yılında Phrygia (Frigya)’da Hierapolis’te (Şimdiki Pamukkale yakınları) doğduğu rivayet edilen çocukluğunda köle olarak satılan, stoacı, kaderci bir Yunan filozofudur. Kimdir?",
         imgSrc : "img/idea.png",
-        choiceA : "Aristoteles ",
-        choiceB : "Parmenides ",
-        choiceC : "Heraklitos ",
-	    choiceD : "Sokrates ",
+        choiceA : "Platon ",
+        choiceB : "Epiktetos  ",
+        choiceC : "Lukianos ",
+	    choiceD : "Diogenes",
+	    correct : "B"
+    } ,    {
+        question : '31. Doğa sorunundan daha çok insan sorunu odaklanmmıştır. , tanrıların insan gibi düşünülmesine (antropomorfizm) karşı çıkmış; politeizmi (çok tanrıcılığı) ve orfik kültünün bir öğretisi olan ruh göçünü kabul etmemiştir. Kimdir?',
+        imgSrc : "img/idea.png",
+        choiceA : "Ksenophanes ",
+        choiceB : "Epiktetos  ",
+        choiceC : "Lukianos ",
+	    choiceD : "Diogenes",
 	    correct : "A"
     } ,    {
         question : "32. Aristotelesin altın orta görüşüyle ters düşen hangisidir?",
@@ -291,7 +291,7 @@ let questions = [
 	    correct : "B"
 	   
     } 
-// 27 E KADAR DEĞİŞTİRDİM  34 tane	
+// 31 E KADAR DEĞİŞTİRDİM  34 tane	
 	
 ];
 
