@@ -251,7 +251,7 @@ let questions = [
 	    correct : "D"
     } ,    {
         question : "30. Milattan sonra 55 yılında Phrygia (Frigya)’da Hierapolis’te (Şimdiki Pamukkale yakınları) doğduğu rivayet edilen çocukluğunda köle olarak satılan, stoacı, kaderci bir Yunan filozofudur. Kimdir?",
-        imgSrc : "img/idea.png",
+        imgSrc : "img/kole.png",
         choiceA : "Platon ",
         choiceB : "Epiktetos  ",
         choiceC : "Lukianos ",
@@ -259,36 +259,36 @@ let questions = [
 	    correct : "B"
     } ,    {
         question : '31. Doğa sorunundan daha çok insan sorunu odaklanmmıştır. , tanrıların insan gibi düşünülmesine (antropomorfizm) karşı çıkmış; politeizmi (çok tanrıcılığı) ve orfik kültünün bir öğretisi olan ruh göçünü kabul etmemiştir. Kimdir?',
-        imgSrc : "img/idea.png",
+        imgSrc : "img/antropomorfizm.png",
         choiceA : "Ksenophanes ",
         choiceB : "Epiktetos  ",
         choiceC : "Lukianos ",
 	    choiceD : "Diogenes",
 	    correct : "A"
     } ,    {
-        question : "32. Aristotelesin altın orta görüşüyle ters düşen hangisidir?",
-        imgSrc : "img/idea.png",
-        choiceA : "Cesaret ",
-        choiceB : "Savurganlık ",
-        choiceC : "Sorumluluk ",
-	    choiceD : "Bilgelik ",
+        question : "32. Lao Tse’nin düşüncesinde evrendeki her türlü değişimin beslendiği sonsuz kaynak aşağıdakilerden hangisidir?",
+        imgSrc : "img/tao.png",
+        choiceA : "İdea ",
+        choiceB : "Bir",
+        choiceC : "Aperion ",
+	    choiceD : "Tao ",
+	    correct : "D"
+    } ,    {
+        question : "33. Ahlakın kaynağı mutluluktur ve mutluluğa iyi ideasına ulaşmaya çalışmakla varılır. Platon’a göre iyi ideasına aşağıdakilerden hangisiyle ulaşılır?",
+        imgSrc : "img/erdem.png",
+        choiceA : "Sorumlu davranmak",
+        choiceB : "Erdemli olmak  ",
+        choiceC : "İyi niyetle hareket etmek  ",
+	    choiceD : "Faydalı olana yönelmek  ",
 	    correct : "B"
     } ,    {
-        question : "33. Bir heykeli yapan sanatçı aristotelesin dört nedeninden hangisine karşılık gelir?",
+        question : "34. Platon’a göre gerçeğin bilgisi “episteme”ye akıl yoluyla ulaşılır. Akıl, bu bilgiye ulaşmak için ruhun derinliklerine yönelir ve orada varolan bilgileri açığa çıkarır. Platon’un bu görüşü aşağıdakilerden hangisiyle ifade edilir?  ",
         imgSrc : "img/idea.png",
-        choiceA : "Fail  ",
-        choiceB : "Maddi  ",
-        choiceC : "Formel  ",
-	    choiceD : "Ereksel  ",
+        choiceA : "Bilmek, anımsamaktır. ",
+        choiceB : "Bilmek, özün bilgisini bilmektir.",
+        choiceC : "Bilmek, tecrübe etmektir  ",
+	    choiceD : "Bilgi, tahmin ve sanıdan meydana gelir",
 	    correct : "A"
-    } ,    {
-        question : "34. İran’da MÖ1000-600 yıllarında etkili olan, ikili bir anlayışı öne süren bir inançtır. Ahuramazda ve Ehrimen isimli iki yaratıcı vardır. Felsefenin değer tartışmalarında etkili olan bu inanç  hangisidir?  ",
-        imgSrc : "img/idea.png",
-        choiceA : "Mani inancı  ",
-        choiceB : "Zerdüşt inancı  ",
-        choiceC : "Sihizm  ",
-	    choiceD : "Hinduizm  ",
-	    correct : "B"
 	   
     } 
 // 31 E KADAR DEĞİŞTİRDİM  34 tane	
