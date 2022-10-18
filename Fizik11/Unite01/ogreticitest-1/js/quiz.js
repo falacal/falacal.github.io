@@ -16,7 +16,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "1) Bilişim teknolojilerinin ve İnternet’in kullanımı sırasında uyulması gereken kuralları tanımlayan ilkelere ......... denir.  ",
+        question : "1)  Vektörler \frac{\partial }{\partial x} B   </s:Bvec>  ...a–...b–...X–...    ",
         imgSrc : "img/hucre1.gif ",
         choiceA : "fikrî mülkiyet ",
         choiceB : "bilişim etiği ",

@@ -250,8 +250,8 @@ let questions = [
 	    choiceD : "Diogenes",
 	    correct : "D"
     } ,    {
-        question : "30. Milattan sonra 55 yılında Phrygia (Frigya)’da Hierapolis’te (Şimdiki Pamukkale yakınları) doğduğu rivayet edilen çocukluğunda köle olarak satılan, stoacı, kaderci bir Yunan filozofudur. Kimdir?",
-        imgSrc : "img/kole.png",
+        question : "30. Milattan sonra 55 yılında Phrygia da Hierapolis te (Şimdiki Pamukkale yakınları) doğduğu rivayet edilen çocukluğunda köle olarak satılan  stoacı  kaderci bir Yunan filozofudur. Kimdir? ",
+		imgSrc : "img/kole.png",
         choiceA : "Platon ",
         choiceB : "Epiktetos  ",
         choiceC : "Lukianos ",
