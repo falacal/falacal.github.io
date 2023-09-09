@@ -17,25 +17,25 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "1)	Maddenin yapısını, özelliklerini, birbiri ile etkileşimini ve bu etkileşimler sonucu uğradığı değişimleri inceleyen bilim dalına kimya denir. ",
-        imgSrc : "img/fizik1.png  ",
+        imgSrc : "img/kimya1a.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A" 
     }, {
-        question : "2)	Kırmızı renkli cıva sülfür e ( HgS  ) zincifre denir. ",
-        imgSrc : "img/fizik2.png  ",
+        question : "2)	Kırmızı renkli cıva sülfüre (HgS) zincifre denir. ",
+        imgSrc : "img/zincifre1.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     },	{
         question : "3) Civa sülfür bileşiği HgS olarak yazılır. ",
-        imgSrc : "img/kinematik2.png  ",
+        imgSrc : "img/zincifre1.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "4)	Alşimist simyacı demektir.. ",
-        imgSrc : "img/yuklerceker2.png  ",
+        imgSrc : "img/simyaci1.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
@@ -60,91 +60,91 @@ let questions = [
 		correct : "A"
     }, {
         question : "8)	Kimya biliminin başlangıcı, MÖ 3000’li yıllara kadar dayanır. Bu tarih, metallerin eritilerek alaşımların elde edildiği Tunç Çağı olarak tanımlanır. ",
-        imgSrc : "img/temelbuyuklukler.png  ",
+        imgSrc : "img/ancientsimyaci2.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     },    {
         question : "9)	Bir uğraşın bilim olabilmesi için teorik temellere dayanması ve sistematik bilgi birikimi sağlaması gerekmemektedir. ",
-        imgSrc : "img/kronometre1.png  ",
+        imgSrc : "img/kimya3.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "10)	Simya (alşimi), kimyanın bilim olmadan önceki sürecini kapsamaktadır. ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya3.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "11)	Değersiz metalleri altına çevirmek, içildiğinde ölümsüzlük sağlayacak olan iksiri bulmak, felsefe taşını aramak gibi uğraşlara simya, simya ile uğraşanlara da kimyacı denir.  ",
-        imgSrc : "img/",
+        imgSrc : "img/simya4.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "B"
     }, {
         question : "12)	Simyacıları araştırmaya yönlendiren olaylardan biri, zincifre olarak bilinen HgS bileşiğinin ısıtılması ile saf cıva elde edilmesidir.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya5.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "13)	Simyacılar kristalizasyon, damıtma, özütleme, mayalama, çözme gibi laboratuvar tekniklerini geliştirmişlerdir.   ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya5.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "14)	Simyacıların yaptığı pek çok çalışma ve kullandığı yöntem, günümüzde kimya alanında da kullanılmaktadır.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya6.png",
         choiceA : "Doğru",
         choiceB : "Yanlış",
 		correct : "A"
     }, {
         question : "15)	Çalışmaları deneme yanılmaya dayanır.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya6.png",
         choiceA : "Kimya",
         choiceB : "Simya",
 		correct : "B"
     }, {
         question : "16)	Çalışmaları bilimsel araştırmaya, gözlem ve deneye dayanır.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya",
 		correct : "A"
     }, {
         question : "17)	Çalışmaları teorik temellere dayanmaz.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya (alşimi)",
 		correct : "B"
     }, {
         question : "18)	Çalışmaları teorik temellere dayanır.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya (alşimi)",
 		correct : "A"
     }, {
         question : "19)	 Çalışmalarında sistematik bilgi birikimi yoktur.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya (alşimi)",
 		correct : "B"
     }, {
         question : "20)	Çalışmalarında sistematik bilgi birikimi vardır.  ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya (alşimi)",
 		correct : "A"
     }, {
         question : "21)	 Bilim dalı değildir. ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya (alşimi)",
 		correct : "B"
     }, {
         question : "22)	 Bilim dalıdır. ",
-        imgSrc : "img/vektor1.png",
+        imgSrc : "img/simya7.png",
         choiceA : "Kimya",
         choiceB : "Simya (alşimi)",
 		correct : "A"
