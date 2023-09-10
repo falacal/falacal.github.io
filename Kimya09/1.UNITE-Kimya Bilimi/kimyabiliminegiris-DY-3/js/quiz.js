@@ -16,144 +16,130 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "1)	Maddenin yapısını, özelliklerini, birbiri ile etkileşimini ve bu etkileşimler sonucu uğradığı değişimleri inceleyen bilim dalına kimya denir. ",
-        imgSrc : "img/fizik1.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A" 
+        question : "1)	.... MÖ 492-432 yılları arasında yaşamış Sicilyalı bir düşünürdür. Ona göre madde su, hava, ateş ve toprak olmak üzere (dört öge düşüncesi) dört elementten oluşuyordu. ",
+        imgSrc : "img/empedokles1.png",
+        choiceA : "Aristo",
+        choiceB : "Empedokles",
+		correct : "B" 
     }, {
-        question : "2)	Kırmızı renkli cıva sülfür e ( HgS  ) zincifre denir. ",
-        imgSrc : "img/fizik2.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
+        question : "2)	Empedokles; maddeleri bir arada tutan etkenin .....  , ayrı tutan etkeninde ..... olduğunu ileri sürüyordu. ",
+        imgSrc : "img/empedokles2.png",
+        choiceA : "sevgi - nefret",
+        choiceB : "dostluk-düşmanlık",
 		correct : "A"
     },	{
-        question : "3) Civa sülfür bileşiği HgS olarak yazılır. ",
-        imgSrc : "img/kinematik2.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
+        question : "3) Empedokles; taneciklerin birbirini çekmesini ..... , itmesini de ...... duygusuna bağlıyordu.  ",
+        imgSrc : "img/empedokles2.png",
+        choiceA : "dostluk-düşmanlık",
+        choiceB : "sevgi - nefret",
+		correct : "B"
     }, {
-        question : "4)	Alşimist simyacı demektir.. ",
-        imgSrc : "img/yuklerceker2.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
+        question : "4)	....... MÖ 470-361 yılları arasında yaşamış bir düşünürdür, maddenin atomos (atom) adı verilen çok küçük parçacıklardan oluştuğunu ieri sürmüştür.",
+        imgSrc : "img/democritus1.png",
+        choiceA : "Aristo",
+        choiceB : "Democritus",
+		correct : "B"
     }, 
 	    {
-        question : "5)	Zincifre(HgS),    maddesi, 580°C’a kadar ısıtıldığında cıva ve kükürt elementlerine ayrışır. ",
-        imgSrc : "img/atomfizik3.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
+        question : "5)	...... , Antik yunanda, maddelerin atomlardan oluştuğunu, maddelerin farklı özelliklerde olmasının nedenini bu maddelerin farklı atomlardan oluşmasına bağlıyordu. ",
+        imgSrc : "img/democritus1.png",
+        choiceA : "Democritus",
+        choiceB : "Aristo",
 		correct : "A"
     }, {
-        question : "6)	Plazma fiziği tıp alanında kanser tedavisindeki cihazlarda kullanılır. ",
-        imgSrc : "img/plazma-nedir-iyon-elektron.gif  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
+        question : "6)	.... MÖ 384-322 yılları arasında yaşamıştır. Empedokles’in düşüncesinden etkilenmiştir. Dört element düşüncesini geliştirmiş, evrende toprak, hava, su ve ateş farklı oranlarda birleşerek farklı maddelerin oluşmasına neden olmuştur fikrini ileri sürmüştür.",
+        imgSrc : "img/aristo1.png",
+        choiceA : "Democritus",
+        choiceB : "Aristo",
+		correct : "B"
     },	{
-        question : "7)	Archimedes, fizik biliminin yanı sıra felsefe ile de ilgilenen bilim insanlarından biridir. ",
-        imgSrc : "img/arsimed3.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
-    }, {
-        question : "8)	Kimya biliminin başlangıcı, MÖ 3000’li yıllara kadar dayanır. Bu tarih, metallerin eritilerek alaşımların elde edildiği Tunç Çağı olarak tanımlanır. ",
-        imgSrc : "img/temelbuyuklukler.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
+        question : "7)	Aristo’ya göre, ateş elementinin ...... gibi özellikleri vardır. ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "kuru-soğuk",
+        choiceB : "kuru-sıcak",
 		correct : "B"
+    }, {
+        question : "8) Aristo’ya göre, hava elementinin  ......   gibi özellikleri vardır.",
+        imgSrc : "img/aristo1.png",
+        choiceA : "sıcak-ıslak",
+        choiceB : "soğuk-ıslak",
+		correct : "A"
     },    {
-        question : "9)	Bir uğraşın bilim olabilmesi için teorik temellere dayanması ve sistematik bilgi birikimi sağlaması gerekmemektedir. ",
-        imgSrc : "img/kronometre1.png  ",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
+        question : "9)	Aristo’ya göre, su elementinin   ......   gibi özellikleri vardır.  ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "sıcak-ıslak",
+        choiceB : "soğuk-ıslak",
 		correct : "B"
     }, {
-        question : "10)	Simya (alşimi), kimyanın bilim olmadan önceki sürecini kapsamaktadır. ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
+        question : "10)	Aristo’ya göre, toprak elementinin  ......   gibi özellikleri vardır.",
+        imgSrc : "img/aristo1.png",
+        choiceA : "kuru-soğuk",
+        choiceB : "kuru-sıcak",
 		correct : "A"
     }, {
-        question : "11)	Değersiz metalleri altına çevirmek, içildiğinde ölümsüzlük sağlayacak olan iksiri bulmak, felsefe taşını aramak gibi uğraşlara simya, simya ile uğraşanlara da kimyacı denir.  ",
-        imgSrc : "img/",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
+        question : "11)	......... , kimya laboratuvarını ilk defa kurarak ve doğadaki maddeleri saflaştırarak elementleri ve bileşikleri elde etmeye çalışmıştır.",
+        imgSrc : "img/cabirbinhayyan1.png",
+        choiceA : "Ömer Hayyam (عمر الخيّام)",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
 		correct : "B"
     }, {
-        question : "12)	Simyacıları araştırmaya yönlendiren olaylardan biri, zincifre olarak bilinen HgS bileşiğinin ısıtılması ile saf cıva elde edilmesidir.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
-    }, {
-        question : "13)	Simyacılar kristalizasyon, damıtma, özütleme, mayalama, çözme gibi laboratuvar tekniklerini geliştirmişlerdir.   ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
-    }, {
-        question : "14)	Simyacıların yaptığı pek çok çalışma ve kullandığı yöntem, günümüzde kimya alanında da kullanılmaktadır.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Doğru",
-        choiceB : "Yanlış",
-		correct : "A"
-    }, {
-        question : "15)	Çalışmaları deneme yanılmaya dayanır.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya",
+        question : "12)	 Altın ve platin gibi soy metalleri çözen kral suyunu (3 hacim hidroklorik asit ve 1 hacim nitrik asit) keşfetmiştir.",
+        imgSrc : "img/cabirbinhayyan1.png",
+        choiceA : "Ömer Hayyam (عمر الخيّام)",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
 		correct : "B"
     }, {
-        question : "16)	Çalışmaları bilimsel araştırmaya, gözlem ve deneye dayanır.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya",
-		correct : "A"
-    }, {
-        question : "17)	Çalışmaları teorik temellere dayanmaz.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya (alşimi)",
+        question : "13)	Asetik asit, sitrik asit, tartarik asit, arsenik tozu gibi maddelerin keşfini yapmıştır.",
+        imgSrc : "img/cabirbinhayyan1.png",
+        choiceA : "Ömer Hayyam (عمر الخيّام)",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
 		correct : "B"
     }, {
-        question : "18)	Çalışmaları teorik temellere dayanır.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya (alşimi)",
+        question : "14)	 .....  İranlı hekim ve filozoftur. Kroze ve fırın gibi laboratuvar araçlarını geliştirmiş, kostik sodayı ve gliserini keşfetmiştir. ",
+        imgSrc : "img/errazi1.png",
+        choiceA : "Aristo",
+        choiceB : "Ebubekir er-Razi",
 		correct : "A"
     }, {
-        question : "19)	 Çalışmalarında sistematik bilgi birikimi yoktur.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya (alşimi)",
-		correct : "B"
-    }, {
-        question : "20)	Çalışmalarında sistematik bilgi birikimi vardır.  ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya (alşimi)",
+        question : "15)	....... , kimya ve fizik alanında birçok çalışma yapmış ve eserler vermiş bir bilim insanıdır. En önemli eseri “Kuşkucu Kimyager” adlı kitabıdır.",
+        imgSrc : "img/RobertBoyle1.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
 		correct : "A"
     }, {
-        question : "21)	 Bilim dalı değildir. ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya (alşimi)",
+        question : "16)	........ , elementin 'kendinden daha basit maddelere ayrıştırılamayan saf madde' olduğunu ileri sürerek Aristo’nun 2000 yıllık dört element düşüncesine son vermiştir. ",
+        imgSrc : "img/RobertBoyle1.png",
+        choiceA : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
+        choiceB : "Robert Boyle",
 		correct : "B"
     }, {
-        question : "22)	 Bilim dalıdır. ",
-        imgSrc : "img/vektor1.png",
-        choiceA : "Kimya",
-        choiceB : "Simya (alşimi)",
+        question : "17)	........ , gazlar üzerine yaptığı çalışmalarda gazların basıncı ile hacmi arasındaki ilişkiyi açıklamıştır. Sabit sıcaklıkta miktarı değişmeyen bir gazın basıncı ile hacminin çarpımının sabit olduğunu tespit etmiştir.",
+        imgSrc : "img/RobertBoyle2.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Antoine Lavoisier",
+		correct : "A"
+    }, {
+        question : "18)	Fransız bilim insanı .......  'Kütlenin Korunumu Kanunu'nu bulmuştur. Havada bulunan oksijenin yanan bir madde ile etkileşerek yanmayı gerçekleştirdiğini ve böylece metal oksitlerin oluştuğunu açıklamıştır.",
+        imgSrc : "img/lavvaziye1.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Antoine Lavoisier",
+		correct : "B"
+    }, {
+        question : "19)	 Fenikeli gemiciler Suriye'deki bir nehrin ağzında karaya çıkmışlar ateş yakıp, ateşte sodyum nitrat tuzunu (NaNO3: Şili güherçilesi) eritip kum ile karıştırınca tesadüf eseri ...... bulmuşlardır. ",
+        imgSrc : "img/cam1.png",
+        choiceA : "camı",
+        choiceB : "mıknatısı",
+		correct : "A"
+    }, {
+        question : "20)	......  , elementin “kendinden daha basit maddelere ayrıştırılamayan saf madde” olduğunu ileri sürmüştür. ",
+        imgSrc : "img/RobertBoyle2.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Antoine Lavoisier",
 		correct : "A"
     } 
 	
 	
 	
-	
-	
 
 
 
@@ -162,7 +148,7 @@ let questions = [
 
 
 
-// 22 SORU select all elements	
+// 20 SORU select all elements	
 	
 	
 	
