@@ -1,0 +1,305 @@
+// select all elements
+const start = document.getElementById("start");
+const quiz = document.getElementById("quiz");
+const question = document.getElementById("question");
+const qImg = document.getElementById("qImg");
+const choiceA = document.getElementById("A");
+const choiceB = document.getElementById("B");
+const choiceC = document.getElementById("C");
+const choiceD = document.getElementById("D");
+ 
+const counter = document.getElementById("counter");
+const timeGauge = document.getElementById("timeGauge");
+const progress = document.getElementById("progress");
+const scoreDiv = document.getElementById("scoreContainer");
+
+// create our questions
+let questions = [
+    {
+        question : "1)	Bir atomun kimyasal bağda, bağlayıcı elektron çiftini çekme kabiliyetininin ölçüsüne ne denir?",
+        imgSrc : "img/empedokles1.png",
+        choiceA : "Değerlik elektronu",
+        choiceB : "Elektronegatiflik",
+		correct : "B" 
+    }, {
+        question : "2)	 ",
+        imgSrc : "img/empedokles2.png",
+        choiceA : "sevgi - nefret",
+        choiceB : "dostluk-düşmanlık",
+		correct : "A"
+    },	{
+        question : "3) 	 ",
+        imgSrc : "img/empedokles2.png",
+        choiceA : "dostluk-düşmanlık",
+        choiceB : "sevgi - nefret",
+		correct : "B"
+    }, {
+        question : "4)		 ",
+        imgSrc : "img/democritus1.png",
+        choiceA : "Aristo",
+        choiceB : "Democritus",
+		correct : "B"
+    }, 
+	    {
+        question : "5)		 ",
+        imgSrc : "img/democritus1.png",
+        choiceA : "Democritus",
+        choiceB : "Aristo",
+		correct : "A"
+    }, {
+        question : "6)		 ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "Democritus",
+        choiceB : "Aristo",
+		correct : "B"
+    },	{
+        question : "7)		 ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "kuru-soğuk",
+        choiceB : "kuru-sıcak",
+		correct : "B"
+    }, {
+        question : "8) 	 ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "sıcak-ıslak",
+        choiceB : "soğuk-ıslak",
+		correct : "A"
+    },    {
+        question : "9)		 ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "sıcak-ıslak",
+        choiceB : "soğuk-ıslak",
+		correct : "B"
+    }, {
+        question : "10)		 ",
+        imgSrc : "img/aristo1.png",
+        choiceA : "kuru-soğuk",
+        choiceB : "kuru-sıcak",
+		correct : "A"
+    }, {
+        question : "11)		 ",
+        imgSrc : "img/cabirbinhayyan1.png",
+        choiceA : "Ömer Hayyam (عمر الخيّام)",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
+		correct : "B"
+    }, {
+        question : "12)	 	 ",
+        imgSrc : "img/cabirbinhayyan1.png",
+        choiceA : "Ömer Hayyam (عمر الخيّام)",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
+		correct : "B"
+    }, {
+        question : "13)		 ",
+        imgSrc : "img/cabirbinhayyan1.png",
+        choiceA : "Ömer Hayyam (عمر الخيّام)",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
+		correct : "B"
+    }, {
+        question : "14)	 	 ",
+        imgSrc : "img/errazi1.png",
+        choiceA : "Aristo",
+        choiceB : "Ebubekir er-Razi",
+		correct : "A"
+    }, {
+        question : "15)		 ",
+        imgSrc : "img/RobertBoyle1.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
+		correct : "A"
+    }, {
+        question : "16) 	 ", 
+        imgSrc : "img/RobertBoyle1.png",
+        choiceA : "Ebû Mûsa Câbir bin Hayyân (ابو موسی جابربن حیان)",
+        choiceB : "Robert Boyle",
+		correct : "B"
+    }, {
+        question : "17)		 ",
+        imgSrc : "img/RobertBoyle2.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Antoine Lavoisier",
+		correct : "A"
+    }, {
+        question : "18)	 	 ",
+        imgSrc : "img/lavvaziye1.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Antoine Lavoisier",
+		correct : "B"
+    }, {
+        question : "19)	 	 ",
+        imgSrc : "img/cam1.png",
+        choiceA : "camı",
+        choiceB : "mıknatısı",
+		correct : "A"
+    }, {
+        question : "20)		 ",
+        imgSrc : "img/RobertBoyle2.png",
+        choiceA : "Robert Boyle",
+        choiceB : "Antoine Lavoisier",
+		correct : "A"
+    } 
+	
+	
+	
+
+
+
+
+
+
+
+
+// 20 SORU select all elements	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+];
+
+// create some variables
+
+const lastQuestion = questions.length - 1;
+let runningQuestion = 0;
+let count = 0;
+const questionTime = 180; // 90 s
+const gaugeWidth = 150; // 150px
+const gaugeUnit = gaugeWidth / questionTime;
+let TIMER;
+let score = 0;
+
+// render a question
+function renderQuestion(){
+    let q = questions[runningQuestion];
+    
+    question.innerHTML = "<p>"+ q.question +"</p>";
+    qImg.innerHTML = "<img src="+ q.imgSrc +">";
+    choiceA.innerHTML = q.choiceA;
+    choiceB.innerHTML = q.choiceB;
+ 
+    
+	
+}
+
+start.addEventListener("click",startQuiz);
+
+// start quiz
+function startQuiz(){
+    start.style.display = "none";
+    renderQuestion();
+    quiz.style.display = "block";
+    renderProgress();
+    renderCounter();
+    TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
+}
+
+// render progress
+function renderProgress(){
+    for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
+        progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
+    }
+}
+
+// counter render
+
+
+
+// checkAnwer
+
+function checkAnswer(answer){
+    if( answer == questions[runningQuestion].correct){
+        // answer is correct
+        score++;
+        // change progress color to green
+        answerIsCorrect();
+    }else{
+        // answer is wrong
+        // change progress color to red
+        answerIsWrong();
+    }
+    count = 0;
+    if(runningQuestion < lastQuestion){
+        runningQuestion++;
+        renderQuestion();
+    }else{
+        // end the quiz and show the score
+        clearInterval(TIMER);
+        scoreRender();
+    }
+}
+
+// answer is correct
+function answerIsCorrect(){
+    document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
+}
+
+// answer is Wrong
+function answerIsWrong(){
+    document.getElementById(runningQuestion).style.backgroundColor = "#f00";
+}
+
+// score render
+function scoreRender(){
+    scoreDiv.style.display = "block";
+    
+    // calculate the amount of question percent answered by the user
+    const scorePerCent = Math.round(100 * score/questions.length);
+    
+    // choose the image based on the scorePerCent
+    let img = (scorePerCent >= 80) ? "img/5.png" :
+              (scorePerCent >= 60) ? "img/4.png" :
+              (scorePerCent >= 40) ? "img/3.png" :
+              (scorePerCent >= 20) ? "img/2.png" :
+			  (scorePerCent >= 10) ? "img/1.png" :
+			   
+              "img/1.png";
+    
+    scoreDiv.innerHTML = "<img src="+ img +">";
+   scoreDiv.innerHTML += "<p>%"+ scorePerCent + "</br>" +    "</br>" + "<button class='button' onClick='window.location.href=window.location.href' >"  + "Tekrarla" + "</button>"  +                 "</p>";
+	
+	 
+}
+
+
+
+
+function renderCounter(){
+    if(count <= questionTime){
+        counter.innerHTML = (180-count)+" saniye"    ;
+        timeGauge.style.width = count * gaugeUnit + "px";
+        count++
+    }else{
+        count = 0;
+        // change progress color to red
+        answerIsWrong();
+        if(runningQuestion < lastQuestion){
+            runningQuestion++;
+            renderQuestion();
+        }else{
+            // end the quiz and show the score
+            clearInterval(TIMER);
+            scoreRender();
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
