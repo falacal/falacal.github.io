@@ -89,36 +89,56 @@ let questions = [
         choiceB : "polar",
 		correct : "A"
     }, {
-        question : "13) Soldaki görselde Lewis yapıları verilen moleküllerle ilgili bilgileri aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+        question : "13) Soldaki görselde Lewis yapıları verilen H<sub>2</sub>S molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
         imgSrc : "img/polar4.png",
         choiceA : " 2- 2 - polar - polar ",
         choiceB : " 2- 2 - apolar - apolar",
 		correct : "A"
     }, {
-        question : "14) Soldaki görselde Lewis yapıları verilen moleküllerle ilgili bilgileri aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+        question : "14) Soldaki görselde Lewis yapıları verilen O<sub>2</sub> molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
         imgSrc : "img/apolar5.png",
         choiceA : " 2- 4 - polar - polar ",
         choiceB : " 2- 4 - apolar - apolar",
 		correct : "B"
     }, {
-        question : "15) Soldaki görselde Lewis yapıları verilen moleküllerle ilgili bilgileri aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+        question : "15) Soldaki görselde Lewis yapıları verilen Cl<sub>2</sub> molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
         imgSrc : "img/apolar6.png",
         choiceA : " 1- 6 - polar - polar ",
         choiceB : " 1- 6 - apolar - apolar",
 		correct : "B"
     }, {
-        question : "16) Soldaki görselde Lewis yapıları verilen moleküllerle ilgili bilgileri aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+        question : "16) Soldaki görselde Lewis yapıları verilen BF<sub>3</sub> (Bor triflorür)  molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
         imgSrc : "img/apolar7.png",
         choiceA : " 3- 9 - polar - apolar ",
         choiceB : " 3- 9 - apolar - apolar",
 		correct : "A"
     }, {
-        question : "17) Soldaki görselde Lewis yapıları verilen moleküllerle ilgili bilgileri aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+        question : "17) Soldaki görselde Lewis yapıları verilen HCl molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
         imgSrc : "img/polar8.png",
         choiceA : " 1- 3 - polar - polar ",
         choiceB : " 1- 3 - apolar - apolar",
 		correct : "A"
+    } , {
+        question : "18) Soldaki görselde Lewis yapıları verilen SO<sub>2</sub> molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
+        imgSrc : "img/polar9.png",
+        choiceA : " 3- 6 - polar - polar ",
+        choiceB : " 6- 3 - apolar - apolar",
+		correct : "A"
+    } , {
+        question : "19) Soldaki görselde Lewis yapıları verilen CCl<sub>4</sub> molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
+        imgSrc : "img/CCl4.png",
+        choiceA : " 4- 12 - polar - polar ",
+        choiceB : " 4- 12 - polar - apolar",
+		correct : "B"
+    } , {
+        question : "20) Soldaki görselde Lewis yapıları verilen SO<sub>3</sub> molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?",
+        imgSrc : "img/SO3.png",
+        choiceA : " 4- 8 - polar - apolar ",
+        choiceB : " 4- 8 - polar -  polar",
+		correct : "A"
     } 
+	
+	
 	
 	
 
