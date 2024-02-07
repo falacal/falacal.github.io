@@ -145,8 +145,8 @@ let questions = [
     } , {
         question : '22) Soldaki görselde Lewis yapıları verilen <font color="red"><b> CO </b> </font color="red">  (<b><font color="red"> karbonmonoksit</font color="red"></b> ) molekülüyle  ilgili olarak boş bırakılan kısımları aşağıdaki şıklardan hangisinde sırasıyla doğru olarak verilmiştir?',
         imgSrc : "img/CO.png",
-        choiceA : " 6- 3 - apolar - polar ",
-        choiceB : " 3- 6 - apolar -  polar",
+        choiceA : " 3- 2 - apolar - polar ",
+        choiceB : " 3- 2 - polar -  polar",
 		correct : "B"
     }
 	
