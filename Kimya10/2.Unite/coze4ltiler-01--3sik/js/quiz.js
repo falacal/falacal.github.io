@@ -158,7 +158,7 @@ let questions = [
         choiceA : "kalay",
         choiceB : "kleptomani",
         choiceC : "derişim",
-		correct : "B"
+		correct : "C"
     } 
 	, 
  	    {
@@ -231,7 +231,7 @@ let questions = [
 		correct : "A"
     } ,
  	    {
-        question : "26.  Çözünme sürecinde çözücü moleküllerinin birbirinden ayrılması, enerji yönünden …………… olaydır. ",
+        question : "26. Çözünme sürecinde çözücü moleküllerinin birbirinden ayrılması, enerji yönünden …………… olaydır. ",
         imgSrc : "img/dusun.png",
         choiceA : "ekzotermik" ,
         choiceB : "endotermik" ,
