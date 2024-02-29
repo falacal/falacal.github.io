@@ -125,12 +125,12 @@ let questions = [
     } 
 	, 
  	    {
-        question : "14. Kalay ve bakırın karışımı alaşıma  ....... denir.",
+        question : "14. Kalay, bakır ve çinko karışımı alaşıma  ....... denir.",
         imgSrc : "img/dusun.png",
         choiceA : "kalay",
         choiceB : "prinç",
         choiceC : "tunç",
-		correct : "A"
+		correct : "C"
     } 
 	, 
  	    {
