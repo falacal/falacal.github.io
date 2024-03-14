@@ -270,7 +270,51 @@ let questions = [
         choiceB : "Doğru" ,
         choiceC : "Yanlış ",		
 		correct : "B"
+    }  ,
+ 	    {
+        question : "31. Çözünme olayında, çözünen taneciklerin çevresinin çözücü tanecikleri ile sarılmasına ..... denir ",
+        
+        imgSrc : "img/dusun.png",
+        choiceA : "hidratasyon  " ,
+        choiceB : "solvatasyon kuvvetleri  " ,
+        choiceC : "solvatasyon",		
+		correct : "C"
+    }  ,
+ 	    {
+        question : "32. Çözünen ve çözücü tanecikleri arasında meydana gelen çekim kuvvetlerine ..... denir ",
+        
+        imgSrc : "img/dusun.png",
+        choiceA : "hidratasyon  " ,
+        choiceB : "solvatasyon kuvvetleri  " ,
+        choiceC : "solvatasyon",			
+		correct : "B"
+    }  ,
+ 	    {
+        question : "33. Çözücü tanecikleri ile sarılmış taneciklere ise ..... adı verilir. ",
+        
+        imgSrc : "img/dusun.png",
+       choiceA : "solvatize tanecikler" ,
+        choiceB : "solvatasyon kuvvetleri  " ,
+        choiceC : "solvatasyon",	
+		correct : "A"
+    }  ,
+ 	    {
+        question : "34. Çözünme sırasında çözücü olarak su kullanılmış ise solvatasyon olayı ..... özel adını alır. ",
+        imgSrc : "img/dusun.png",
+        choiceA : "solvatize tanecikler" ,
+        choiceB : "solvatasyon kuvvetleri  " ,
+        choiceC : "hidratasyon  ",		
+		correct : "C"
+    }  ,
+ 	    {
+        question : "35. Etrafı su molekülleriyle çevrilmiş taneciklere ..... denir  ",
+        imgSrc : "img/dusun.png",
+        choiceA : "solvatize tanecikler" ,
+        choiceB : "Hidratize tanecikler   " ,
+        choiceC : "hidratasyon  ",		
+		correct : "B"
     }  
+ 
  
 	
  
