@@ -57,10 +57,10 @@ let questions = [
 	{
         question : "6.  Maddelerin kendisinden daha basit maddeleri oluşturma tepkimesine  ...........  denir.",
         imgSrc : "img/dusun.png",
-        choiceA : "Asit",
-        choiceB : "Baz",
-        choiceC : "Tuz",
-		correct : "A"
+        choiceA : "Nötralleşme",
+        choiceB : "Sentez (oluşum)",
+        choiceC : "Analiz (Ayrışma)",
+		correct : "C"
     },	    {
         question : "7. Bağıl atom kütlesi için referans alınan element ............ dır/dir/dur",
         imgSrc : "img/dusun.png",
