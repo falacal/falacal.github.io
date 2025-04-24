@@ -188,7 +188,65 @@ let questions = [
 
 		correct : "A"
 	
-	  }           
+	  }   , {
+        question : "24- James Chadwick 1932 yılında ...........nun atom çekirdeğinde varlığını keşfetmiştir.  ",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "proton ",
+        choiceB : "nötron ",
+
+		correct : "B"
+	
+	  }  , {
+        question : "25- Thomson Atom Modeli’nin geçerliliğini büyük ölçüde ortadan kaldıran ilk atom teorisi aşağıdakilerden hangisidir?  ",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "Rutherford atom teorisi",
+        choiceB : "Bohr atom teorisi ",
+
+		correct : "A"
+	
+	  } , {
+        question : "26- Atomun temel hâl ve uyarılmış hâlinden ilk bahseden bilim adamı kimdir?",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "James Chadwick ",
+        choiceB : "Niels Bohr ",
+
+		correct : "B"
+	
+	  }  , {
+        question : "27- 3d, 4s, 4p, 4d ve 5s orbitallerinin enerjilerini büyükten küçüğe doğru sıralanışı?",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "4d > 5s > 4p > 3d > 4s ",
+        choiceB : "5s > 4d  > 4p > 3d > 4s ",
+
+		correct : "A"
+	
+	  }  , {
+        question : "28- Metal ile ametal atomları arasında elektron alışverişi sonucu elektrostatik çekim kuvveti ile oluşan bağa ........ denir.  ",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "iyonik bağ ",
+        choiceB : "metalik bağ ",
+
+		correct : "A"
+	
+	  }  , {
+        question : "29- Bu bağ çok atomlu bileşiklerde, atomları bir arada tutmayı sağlar. Serbest valans elektronlaryla metal katyonlar arasinda olusan elektrostatik etkilesimdir.  ",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "metalik bağ ",
+        choiceB : "iyonik bağ   ",
+
+		correct : "A"
+	
+	  } , {
+        question : "30-  Proton sayıları aynı nötron sayıları farklı olan elementlere denir",
+        imgSrc : "img/felsefimetinler.jpg",
+        choiceA : "İzoton ",
+        choiceB : "İzotop",
+
+		correct : "B"
+	
+	  }                            
+	                 
+	        
 	
 	
 	//,     {

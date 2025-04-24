@@ -126,7 +126,7 @@ let questions = [
         imgSrc : "img/gunesmerkezli.png",
         choiceA : "Galile",
         choiceB : "Nicolaus Copernicus",
-		correct : "A"
+		correct : "B"
     } , 
  	    {
         question : "17. Güneşe en yakın gezegen?",
@@ -179,7 +179,78 @@ let questions = [
         choiceA : "Işık yılı",
         choiceB : "AU (Astronomik birim)",
 		correct : "B"
+    } , 
+ 	    {
+        question : "24. Kürenin merkezinden geçen amaca uygun olarak seçilen herhangi bir düzleme verilen ad nedir",
+        imgSrc : "img/",
+        choiceA : "Temel Düzlem",
+        choiceB : "Düşey Çember",
+		correct : "A"
+    } , 
+ 	    {
+        question : "25. Temel düzleme çıkılan dikmenin gök küresini deldiği noktalara verilen isim?",
+        imgSrc : "img/",
+        choiceA : " Düşey Çember",
+        choiceB : " Uçlak Kutup Noktaları",
+		correct : "B"
+    } , 
+ 	    {
+        question : "26. Kon düzeneğinin uçlak (kutup) noktalarından ve gök cisminden geçen yarı çembere verilen isim?",
+        imgSrc : "img/",
+        choiceA : "YATAY ÇEMBER",
+        choiceB : "DÜŞEY ÇEMBER",
+		correct : "B"
+    } , 
+ 	    {
+        question : "28. Temel çember üzerinde başlangıç çemberinden başlayarak gök cisminin düşey çemberine kadar olan yay veya bu yayı gören merkez açıya verilen isim",
+        imgSrc : "img/",
+        choiceA : "YATAY AÇI",
+        choiceB : "DÜŞEY AÇI",
+		correct : "A"
+    } , 
+ 	    {
+        question : "29. Gök cisminin düşey çemberi boyunca temel çemberden itibaren gök cismine kadar olan yay veya bu yayı gören merkez açı olarak tanımlanır",
+        imgSrc : "img/",
+        choiceA : "YATAY AÇI",
+        choiceB : "DÜŞEY AÇI",
+		correct : "B"
+    } , 
+ 	    {
+        question : "30. Görünür ışık için dalga boyu en küçük olan renk hangisidir?",
+        imgSrc : "img/",
+        choiceA : "KIRMIZI",
+        choiceB : "MOR",
+		correct : "B"
+    } , 
+ 	    {
+        question : "31. Görünür ışık için dalga boyu en büyük olan renk hangisidir?",
+        imgSrc : "img/",
+        choiceA : "KIRMIZI",
+        choiceB : "MOR",
+		correct : "A"
+    } , 
+ 	    {
+        question : "32. Kutup Yıldızı’nı belirlemede, hangi takımyıldızdan faydalanılır??",
+        imgSrc : "img/",
+        choiceA : "Büyük ayı",
+        choiceB : "Küçük ayı",
+		correct : "A"
+    } , 
+ 	    {
+        question : "33. Kutup Yıldızı’nın çevren yüksekliği, gözlem yerinin hangi konsayısına eşittir?",
+        imgSrc : "img/",
+        choiceA : "Enlem",
+        choiceB : "Boylam",
+		correct : "A"
+    } , 
+ 	    {
+        question : "34. Kutup yıldızının tam zenit noktasında olduğu gözlem yerinin enlemi kaç derecedir?",
+        imgSrc : "img/",
+        choiceA : "90",
+        choiceB : "45",
+		correct : "A"
     } 
+	
 	
 
 
