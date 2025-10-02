@@ -99,7 +99,7 @@ let questions = [
         imgSrc : "img/errazi1.png",
         choiceA : "Aristo",
         choiceB : "Ebubekir er-Razi",
-		correct : "A"
+		correct : "B"
     }, {
         question : "15)	....... , kimya ve fizik alanında birçok çalışma yapmış ve eserler vermiş bir bilim insanıdır. En önemli eseri “Kuşkucu Kimyager” adlı kitabıdır.",
         imgSrc : "img/RobertBoyle1.png",

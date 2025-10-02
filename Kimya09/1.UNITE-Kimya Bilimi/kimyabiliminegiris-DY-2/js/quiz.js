@@ -115,9 +115,9 @@ let questions = [
     }, {
         question : "17)	Platon ve Aristo ise maddenin düşüncelerden ya da Platon’un savunduğuna göre ....... oluştuğunu ileri sürmüşlerdir. ",
         imgSrc : "img/eskiyunan6.png",
-        choiceA : "protonlardan",
+        choiceA : "idealardan",
         choiceB : "elementlerden ",
-		correct : "B"
+		correct : "A"
     }, {
         question : "18)	Sicilyalı düşünür olan Empedokles (Empedokles) (MÖ 462-432) ilk defa ..... düşüncesini ortaya koydu",
         imgSrc : "img/eskiyunan7.png",
