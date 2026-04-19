@@ -64,27 +64,28 @@ let questions = [
         choiceB: "1s 2s 2p 3s 3p 4s 4p 5s 5p 6s",
         correct: "A"
     },
-    {
-        question: "<sub>3</sub>Li elementi periyodik tabloda hangi periyotta yer alır?",
-        imgSrc: "",
-        choiceA: "1. Periyot",
-        choiceB: "2. Periyot",
-        correct: "B"
-    },
-    {
-        question: "<sub>17</sub>Cl elementi periyodik tabloda hangi grupta yer alır?",
-        imgSrc: "",
-        choiceA: "6A grubu",
-        choiceB: "7A grubu",
-        correct: "B"
-    },
-    {
-        question: "<sub>23</sub>V elementi periyodik tabloda hangi grupta yer alır?",
-        imgSrc: "",
-        choiceA: "4B grubu",
-        choiceB: "5B grubu",
-        correct: "B"
-    },
+{
+    question: "<sub>3</sub>Li elementi periyodik tabloda hangi periyotta yer alır?",
+    imgSrc: "",
+    choiceA: "1. Periyot (1s<sup>2</sup>)",
+    choiceB: "2. Periyot (1s<sup>2</sup> 2s<sup>1</sup>)",
+    correct: "B"
+},
+{
+    question: "<sub>17</sub>Cl elementi periyodik tabloda hangi grupta yer alır?",
+    imgSrc: "",
+    choiceA: "6A grubu (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup>)",
+    choiceB: "7A grubu (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup>)",
+    correct: "B"
+},
+{
+    question: "<sub>23</sub>V elementi periyodik tabloda hangi grupta yer alır?",
+    imgSrc: "",
+    choiceA: "4B grubu (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>2</sup>)",
+    choiceB: "5B grubu (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>3</sup>)",
+    correct: "B"
+},
+
     {
         question: "<sub>16</sub>S<sup>2−</sup> iyonunun elektron sayısı nedir?",
         imgSrc: "",
