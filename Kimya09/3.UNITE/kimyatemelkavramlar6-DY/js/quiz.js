@@ -112,6 +112,18 @@ let questions = [
         choiceA : "Doğru ",
         choiceB : "Yanlış",
 		correct : "B" 
+    } , {
+        question : "17) Akışkanların (sıvı veya gaz) akmaya, şekil değiştirmeye veya yayılmaya karşı gösterdiği iç dirence ne isim verilir?", 
+        imgSrc : "img/acabanedir.jpg",
+        choiceA : "kılcallık ",
+        choiceB : "viskozite(akmazlık)",
+		correct : "B" 
+    } , {
+        question : "18) Sıvı molekülleri arasındaki kohezyon kuvveti nedeniyle sıvının yüzeyinin esnek bir zar gibi davranarak en küçük alana büzülmesine  ne isim verilir?", 
+        imgSrc : "img/acabanedir.jpg",
+        choiceA : "yüzey gerilimi ",
+        choiceB : "viskozite ",
+		correct : "B" 
     } 
 
 
@@ -220,6 +232,17 @@ function scoreRender(){
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score/questions.length);
+	
+	
+	if (scorePerCent < 90) {
+        var audio = new Audio('img/basaramadim-.mp3');
+        audio.play();
+    }
+    if (scorePerCent >= 90) {
+        var audio = new Audio('img/rasputin.mp3');
+        audio.play();
+    }
+	
     
     // choose the image based on the scorePerCent
     let img = (scorePerCent >= 80) ? "img/5.png" :

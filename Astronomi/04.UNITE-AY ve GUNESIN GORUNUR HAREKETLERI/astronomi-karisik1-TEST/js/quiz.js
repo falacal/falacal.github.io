@@ -420,6 +420,10 @@ function scoreRender(){
 		var audio = new Audio('img/basaramadim-.mp3');
 		 audio.play();
 	}
+	if (scorePerCent > 60 ) {
+		var audio = new Audio('img/rasputin.mp3');
+		 audio.play();
+	}
 
 
 
